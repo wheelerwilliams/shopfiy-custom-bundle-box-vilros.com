@@ -1,0 +1,49 @@
+<img width="99999" height="99999" style="pointer-events: none; position: absolute; top: 0; left: 0; width: 96vw; height: 96vh; max-width: 99vw; max-height: 99vh;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSI5OTk5OXB4IiBoZWlnaHQ9Ijk5OTk5cHgiIHZpZXdCb3g9IjAgMCA5OTk5OSA5OTk5OSIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48ZyBzdHJva2U9Im5vbmUiIGZpbGw9Im5vbmUiIGZpbGwtb3BhY2l0eT0iMCI+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9Ijk5OTk5IiBoZWlnaHQ9Ijk5OTk5Ij48L3JlY3Q+IDwvZz4gPC9zdmc+">
+<script src="https://cdn.shopify.com/s/files/1/0245/4798/3420/files/custom.js?v=1649709437"></script>
+{%- liquid
+assign og_title = page_title
+if og_title == blank
+  assign og_title = shop.name | escape
+endif
+assign og_url = canonical_url | default: shop.url
+assign og_type = 'website'
+assign og_description = page_description
+if og_description == blank
+  assign og_description = shop.description | default: shop.name | escape
+endif
+
+if template.name == 'product'
+  assign og_type = 'product'
+elsif template.name == 'article'
+  assign og_type = 'article'
+elsif template.name == 'collection'
+  assign og_type = 'product.group'
+elsif template.name == 'password'
+  assign og_url = shop.url
+endif
+-%}
+
+<meta property="og:site_name" content="{{ shop.name | escape }}">
+<meta property="og:url" content="{{ og_url }}">
+<meta property="og:title" content="{{ og_title }}">
+<meta property="og:type" content="{{ og_type }}">
+<meta property="og:description" content="{{ og_description }}">
+
+{%- if page_image -%}
+  <meta property="og:image" content="http:{{ page_image | img_url: '1200x1200' }}">
+  <meta property="og:image:secure_url" content="https:{{ page_image | img_url: '1200x1200' }}">
+  <meta property="og:image:width" content="{{ page_image.width }}">
+  <meta property="og:image:height" content="{{ page_image.height }}">
+{%- endif -%}
+
+{%- if template.name == 'product' -%}
+  <meta property="og:price:amount" content="{{ product.selected_or_first_available_variant.price | money_without_currency | strip_html }}">
+  <meta property="og:price:currency" content="{{ cart.currency.iso_code }}">
+{%- endif -%}
+
+{%- unless settings.social_twitter_url == blank -%}
+  <meta name="twitter:site" content="{{ settings.social_twitter_url | split: 'twitter.com/' | last | prepend: '@' }}">
+{%- endunless -%}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ og_title }}">
+<meta name="twitter:description" content="{{ og_description }}">

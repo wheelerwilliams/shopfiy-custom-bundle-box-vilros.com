@@ -1,0 +1,31 @@
+/* Styling for top tab logos */
+
+.top-tab_logo-ctr {
+/*   border-bottom: 1px solid; */
+/*   background-color: #4cbbde; */
+  max-height: 26px;
+  text-align: right;
+}
+.top-tab_logo1, .top-tab_logo2 {
+  height: 26px;
+  max-height: 100%;
+  display: inline-block;
+  padding: 5px;
+
+}
+
+.top-tab_logo1 {
+/*   background-color: rgba(0,183,255, 0.1); */
+  background-color: white;
+}
+
+.top-tab_logo2 {
+/*   background-color: rgba(0,183,255, 0.1); */
+/*   background-color: white; */
+  color: white;
+}
+
+/* Styling the out of stock notification */
+a.klaviyo-bis-trigger {
+  margin-top: 3px;
+}
