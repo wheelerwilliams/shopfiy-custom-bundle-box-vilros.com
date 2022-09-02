@@ -1,4 +1,4 @@
-<div class="product-block {{ grid_class | default: 'grid-flex__item one-quarter small-down--one-half' }} {% if quickbuy %} js-contains-quickbuy{% endif %}">
+<div class="product-block {{ grid_class | default: 'grid-flex__item one-quarter small-down--one-half' }} {% if quickbuy %} js-contains-quickbuy{% endif %}  {% for t in product.tags %} {{ t | handleize }}{% endfor %}" product-id="{{ product.id }}" variant-id="{{ product.selected_or_first_available_variant.id }}">
   <div class="product-block__image-container">
     <div class="global-border-radius hover-images {% if settings.hover_image_enabled == true and product.media.size > 1 %} hover-images--two {% if product.featured_media.preview_image.aspect_ratio == product.media[1].preview_image.aspect_ratio %}same-aspect-ratio{% endif %}{% endif %} relative">
       <a class="product-block__image" href="{{ product.url | within: collection }}">

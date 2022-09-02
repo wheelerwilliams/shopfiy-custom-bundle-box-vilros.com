@@ -37,7 +37,7 @@
             {%- assign show_overlay_text = true -%}
           {%- endif -%}
 
-          <div class="{{block.settings.tag}}  gallery__item gallery__item-{{ forloop.index }} {% if section.settings.enable_margin == true %} global-border-radius{% endif %} {% if block.settings.enlarge_image %} gallery__item--enlarged{% endif %} lazyload--placeholder" {{ block.shopify_attributes }}>
+          <div class="{{block.settings.tag}}  gallery__item gallery__item-{{ forloop.index }} {% if section.settings.enable_margin == true %} global-border-radius{% endif %} {% if block.settings.enlarge_image %} gallery__item--enlarged{% endif %} lazyload--placeholder" {{ block.shopify_attributes }} category="{{block.settings.tag}}">
 
             {%- if block.settings.link != blank -%}<a class="gallery__item-link" href="{{ block.settings.link }}">{%- endif -%}
 

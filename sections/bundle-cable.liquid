@@ -55,9 +55,13 @@
         {%- endif -%}
         {% capture grid_class_list %}{{ grid_class }} {{ mobile_grid_class }} grid-flex__item{% endcapture %}
 
-        {% for product in collection.products limit: product_count %}
+        {% paginate collection.products by 1000 %}
+
+        {% for product in collection.products %}
           {% assign quickbuy_toggle = settings.quickbuy_buttons_toggle %}
-            {% render 'product-block', quickbuy: quickbuy_toggle, product: product, grid_class: grid_class_list, show_vendor: section.settings.show_vendor %}
+          {% if product.tags contains section.settings.tag %}
+              {% render 'product-block', quickbuy: quickbuy_toggle, product: product, grid_class: grid_class_list, show_vendor: section.settings.show_vendor %}
+          {% endif %}
         {%- else -%}
           {%- if section.settings.enable_carousel == true -%}{%- assign product_count = 8 -%}{%- endif -%}
           {% for i in (1..product_count) %}
@@ -75,6 +79,7 @@
             </div>
           {% endfor %}
         {% endfor %}
+        {% endpaginate %}
       </div>
 
       {%- if show_carousel_nav -%}
