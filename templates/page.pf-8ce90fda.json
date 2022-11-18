@@ -1,1 +1,11 @@
-{"sections":{"pf-8ce90fda":{"type":"pf-8ce90fda","settings":{}}},"order":["pf-8ce90fda"]}
+{
+  "sections": {
+    "pf-8ce90fda": {
+      "type": "pf-8ce90fda",
+      "settings": {}
+    }
+  },
+  "order": [
+    "pf-8ce90fda"
+  ]
+}

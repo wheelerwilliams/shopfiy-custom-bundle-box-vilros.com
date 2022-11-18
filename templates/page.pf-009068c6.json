@@ -1,1 +1,11 @@
-{"sections":{"pf-009068c6":{"type":"pf-009068c6","settings":{}}},"order":["pf-009068c6"]}
+{
+  "sections": {
+    "pf-009068c6": {
+      "type": "pf-009068c6",
+      "settings": {}
+    }
+  },
+  "order": [
+    "pf-009068c6"
+  ]
+}

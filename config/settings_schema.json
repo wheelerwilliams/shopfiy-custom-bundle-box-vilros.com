@@ -503,7 +503,7 @@
         "type": "checkbox",
         "id": "enable_payment_button",
         "label": "Show dynamic checkout button",
-        "info": "Each customer will see their preferred payment method from those available on your store, such as PayPal or Apple Pay. [Learn more](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
+        "info": "Each customer will see their preferred payment method from those available on your store, such as PayPal or Apple Pay. [Learn more](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)",
         "default": true
       },
       {
@@ -533,7 +533,7 @@
       },
       {
         "type": "paragraph",
-        "content": "Adding swatches will show a circle of color beside variants, and also beside a collection filter with the same name. [Learn more](https://cleancanvas.co.uk/support/boost-settings-swatch)"
+        "content": "Adding swatches will show a circle of color beside variants, and also beside a collection filter with the same name. [Learn more](https:\/\/cleancanvas.co.uk\/support\/boost-settings-swatch)"
       },
       {
         "type": "checkbox",
@@ -546,13 +546,13 @@
         "id": "swatch_option_name",
         "label": "Option title",
         "default": "Color",
-        "info": "For example: Color / Colour / Couleur"
+        "info": "For example: Color \/ Colour \/ Couleur"
       },
       {
         "type": "select",
         "id": "swatch_method",
         "label": "Source",
-        "info": "Choose where the swatches get their colors from, use default CSS colors or upload your own swatches. [Learn more](https://cleancanvas.co.uk/support/boost-settings-swatch)",
+        "info": "Choose where the swatches get their colors from, use default CSS colors or upload your own swatches. [Learn more](https:\/\/cleancanvas.co.uk\/support\/boost-settings-swatch)",
         "options": [
           {
             "label": "CSS colors",

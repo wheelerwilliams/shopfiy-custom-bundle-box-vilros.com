@@ -1,1 +1,597 @@
-{"sections":{"main":{"type":"main-collection","disabled":true,"blocks":{"4a236cea-ef87-41c7-a4d3-40cbcb380dc1":{"type":"collection","settings":{"collection":"","product":"","collection_colour":"#43467f","color_overlay_bg":"#ffffff","overlay_opacity":10,"color_overlay_text":"#333333"}}},"block_order":["4a236cea-ef87-41c7-a4d3-40cbcb380dc1"],"settings":{"enable_feature_header":false,"grid":4,"grid_mobile":"1","pagination_limit":12,"show_total":true,"ajax_products":true,"show_vendor":true,"show_filters":true,"show_filter_prod_counts":true,"show_sort_by":true,"show_featured":false}},"16347429040d987cd7":{"type":"rich-text","settings":{"title":"Raspberry Pi Boards | Shop by Board:","text":"","button_label":"","button_link":"","url_style":"button_1","enlarge_title":true,"enlarge_text":false,"full_width":false,"color_bg":"#ecf1f2","color_title":"#333333","color_text":"#333333"}},"16512439134f55edae":{"type":"slideshow","blocks":{"1651243913c10131d0-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/aasdasd.png","image_position":"center center","image_link":"","color_overlay_bg":"#ffffff","overlay_opacity":80,"color_overlay_text":"#333333","overlay_title":"","overlay_text":"","overlay_url_text_1":"","overlay_url_1":"","overlay_url_text_2":"","overlay_url_2":"","overlay_url_style":"button_1","enlarge_title":false,"enlarge_text":false,"overlay_position_x":50,"overlay_position_y":80,"color_label_background":"#ffffff","color_label_text":"#333333","show_chevron":true,"product_id_1":"","chevron_position_1":"right","label_position_x_1":20,"label_position_y_1":30,"product_id_2":"","chevron_position_2":"right","label_position_x_2":80,"label_position_y_2":50}},"1651243913c10131d0-1":{"type":"image","disabled":true,"settings":{"image_position":"center center","image_link":"","color_overlay_bg":"#ffffff","overlay_opacity":80,"color_overlay_text":"#333333","overlay_title":"Slideshow","overlay_text":"Use this section to welcome customers to your store, show off your images or display a promotion","overlay_url_text_1":"","overlay_url_1":"","overlay_url_text_2":"","overlay_url_2":"","overlay_url_style":"button_1","enlarge_title":false,"enlarge_text":false,"overlay_position_x":50,"overlay_position_y":80,"color_label_background":"#ffffff","color_label_text":"#333333","show_chevron":true,"product_id_1":"","chevron_position_1":"right","label_position_x_1":20,"label_position_y_1":30,"product_id_2":"","chevron_position_2":"right","label_position_x_2":80,"label_position_y_2":50}}},"block_order":["1651243913c10131d0-0","1651243913c10131d0-1"],"settings":{"height":"adapt","height_desktop":600,"height_mobile":500,"mobile_text_below":true,"slideshow_autoplay":true,"slideshow_autoplay_speed":6}},"1634742498f888cdfb":{"type":"banner","disabled":true,"blocks":{"1634742498f888cdfb-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/aasdasd.png","image_position":"center center","image_link":"","color_overlay_bg":"#ffffff","overlay_opacity":0,"color_overlay_text":"#333333","overlay_title":"","overlay_text":"","overlay_url_text_1":"","overlay_url_1":"","overlay_url_text_2":"","overlay_url_2":"","overlay_url_style":"button_1","enlarge_title":true,"enlarge_text":false,"overlay_position_x":50,"overlay_position_y":50,"color_label_background":"#ffffff","color_label_text":"#333333","show_chevron":true,"product_id_1":"","chevron_position_1":"right","label_position_x_1":20,"label_position_y_1":30,"product_id_2":"","chevron_position_2":"right","label_position_x_2":80,"label_position_y_2":50}}},"block_order":["1634742498f888cdfb-1"],"settings":{"height":"fixed","height_desktop":300,"height_mobile":300,"mobile_text_below":true,"slideshow_autoplay":true,"slideshow_autoplay_speed":6}},"1634742893351f18a8":{"type":"image-gallery","blocks":{"566c4b06-6141-452c-850f-ccb1fccf130c":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_6.png","alignment":"center center","enlarge_image":false,"link":"shopify:\/\/collections\/pi-zero-2-w-main-page-collection","title":"","text":"","button_label":"","overlay_position":"center-center"}},"1634742893351f18a8-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_11.png","alignment":"center center","enlarge_image":false,"link":"shopify:\/\/collections\/raspberry-pi-4-main-page","title":"","text":"","button_label":"","overlay_position":"center-center"}},"1634742893351f18a8-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_10.png","alignment":"center center","enlarge_image":false,"link":"shopify:\/\/collections\/raspberry-pi-3-model-b","title":"","text":"","button_label":"","overlay_position":"center-center"}},"1634742893351f18a8-3":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_12.png","alignment":"center center","enlarge_image":false,"link":"shopify:\/\/collections\/raspberry-pi-zero","title":"","text":"","button_label":"","overlay_position":"center-center"}},"1634742893351f18a8-2":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_14.png","alignment":"center center","enlarge_image":false,"link":"shopify:\/\/collections\/raspberry-pi-pico","title":"","text":"","button_label":"","overlay_position":"center-center"}},"c50a6cc2-a8d8-4af5-8b5c-e0419711e2ce":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_15.png","alignment":"center center","enlarge_image":false,"link":"shopify:\/\/collections\/raspberry-pi-400","title":"","text":"","button_label":"","overlay_position":"center-center"}},"aa9d1b6a-c370-4f77-b73c-692b947644b3":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_16.png","alignment":"center center","enlarge_image":false,"link":"shopify:\/\/collections\/compute-module","title":"","text":"","button_label":"","overlay_position":"center-center"}},"67cb4add-ae85-4a43-95c1-90eec5b9f7bf":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_17.png","alignment":"center center","enlarge_image":false,"link":"shopify:\/\/collections\/compute-module","title":"","text":"","button_label":"","overlay_position":"center-center"}}},"block_order":["566c4b06-6141-452c-850f-ccb1fccf130c","1634742893351f18a8-0","1634742893351f18a8-1","1634742893351f18a8-3","1634742893351f18a8-2","c50a6cc2-a8d8-4af5-8b5c-e0419711e2ce","aa9d1b6a-c370-4f77-b73c-692b947644b3","67cb4add-ae85-4a43-95c1-90eec5b9f7bf"],"settings":{"grid":4,"image_height":300,"image_height_mobile":300,"enable_margin":true,"enable_carousel":true,"overlay_style":"box","color_overlay_bg":"#ffffff","overlay_opacity":80,"color_overlay_text":"#333333","overlay_url_style":"button_1"}},"163474291136ee2dfb":{"type":"rich-text","settings":{"title":"Shop Accessories","text":"<p><br\/><\/p><p>Looking for the best accessories to help you get more out of your Raspberry Pi? Vilros has what you need. We offer programming, gaming and even hardware that's designed just with our custom cases! With high quality products at an affordable price - there is no wonder why so many people are turning towards us these days when they need something specific in their life.<\/p>","button_label":"","button_link":"","url_style":"button_1","enlarge_title":true,"enlarge_text":false,"full_width":false,"color_bg":"#ecf1f2","color_title":"#333333","color_text":"#333333"}},"16347429141f04ae7c":{"type":"image-gallery","blocks":{"407f04ea-779a-4608-837b-e5c5bc9f0e70":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_18.png","alignment":"center center","enlarge_image":false,"link":"shopify:\/\/collections\/raspberry-pi-displays","title":"","text":"","button_label":"","overlay_position":"center-center"}},"4ba70d87-26dc-45d4-963d-4b514631222c":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_19.png","alignment":"center center","enlarge_image":false,"link":"shopify:\/\/collections\/raspberry-pi-controllers","title":"","text":"","button_label":"","overlay_position":"center-center"}},"16347429141f04ae7c-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_20.png","alignment":"center center","enlarge_image":false,"link":"shopify:\/\/collections\/raspberry-pi-all-cases","title":"","text":"","button_label":"","overlay_position":"center-center"}},"16347429141f04ae7c-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_21.png","alignment":"center center","enlarge_image":false,"link":"shopify:\/\/collections\/raspberry-pi-all-keyboards","title":"","text":"","button_label":"","overlay_position":"center-center"}},"16347429141f04ae7c-2":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_22.png","alignment":"center center","enlarge_image":false,"link":"shopify:\/\/collections\/raspberry-pi-all-power-supplies","title":"","text":"","button_label":"","overlay_position":"center-center"}},"16347429141f04ae7c-3":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_24.png","alignment":"center center","enlarge_image":false,"link":"shopify:\/\/collections\/raspberry-pi-all-cameras","title":"","text":"","button_label":"","overlay_position":"center-center"}},"eefd2926-3581-4e04-ad4d-c6f7d64e878e":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_26.png","alignment":"center center","enlarge_image":false,"link":"shopify:\/\/collections\/raspberry-pi-fans","title":"","text":"","button_label":"","overlay_position":"center-center"}},"099f8eaa-bb4b-460f-9f75-8b30dde193ab":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_28.png","alignment":"center center","enlarge_image":false,"link":"shopify:\/\/collections\/sd-cards","title":"","text":"","button_label":"","overlay_position":"center-center"}}},"block_order":["407f04ea-779a-4608-837b-e5c5bc9f0e70","4ba70d87-26dc-45d4-963d-4b514631222c","16347429141f04ae7c-0","16347429141f04ae7c-1","16347429141f04ae7c-2","16347429141f04ae7c-3","eefd2926-3581-4e04-ad4d-c6f7d64e878e","099f8eaa-bb4b-460f-9f75-8b30dde193ab"],"settings":{"grid":4,"image_height":300,"image_height_mobile":300,"enable_margin":true,"enable_carousel":false,"overlay_style":"box","color_overlay_bg":"#ffffff","overlay_opacity":80,"color_overlay_text":"#333333","overlay_url_style":"button_1"}},"16425431699fa4173a":{"type":"featured-collection","settings":{"title":"Vilros Accessories","enlarge_title":false,"link_text":"Shop now","collection":"vilros-apparel","show_vendor":false,"enable_carousel":true,"grid":4,"row_count":1,"grid_mobile":"2"}},"16347429317d37fe83":{"type":"get-the-look","disabled":true,"blocks":{"16347429317d37fe83-0":{"type":"product","settings":{"product_id":"vilros-raspberry-pi-4-snes-style-retro-gaming-kit-includes-2-snes-style-gamepads-and-snes-style-case"}},"16347429317d37fe83-1":{"type":"product","settings":{"product_id":"vilros-raspberry-pi-4-ultimate-project-kit-inlcudes-retro-gaming-hardware"}}},"block_order":["16347429317d37fe83-0","16347429317d37fe83-1"],"settings":{"image":"shopify:\/\/shop_images\/Screenshot_2014-11-02_17.35.58.0.0.jpg","image_position":"center center","background_color":"#cd201a","show_vendor":false,"color_overlay_bg":"#ffffff","overlay_opacity":80,"color_overlay_text":"#333333","overlay_title":"RETRO GAMING","overlay_text":"Vilros has all the products you need to get started with Retro Pie for Raspberry Pi allowing you all of the retro games you loved.","overlay_url_text":"Get Gaming!","overlay_url":"shopify:\/\/collections\/retro-gaming","overlay_url_style":"button_2","enlarge_title":false,"enlarge_text":false,"overlay_position_y":70}},"1634742935b6274467":{"type":"featured-collection","settings":{"title":"Raspberry Pi Merch","enlarge_title":false,"link_text":"Shop now","collection":"raspberry-pi-merch","show_vendor":false,"enable_carousel":false,"grid":4,"row_count":1,"grid_mobile":"2"}},"1651243997e2c28b29":{"type":"rich-text","disabled":true,"settings":{"title":"","text":"<p>Vilros Kits are another great place to begin any level of the project. <\/p><p>Start with the Raspberry Pi Basic Starter Kit or a Raspberry Pi Complete Starter Kits. <\/p><p>Vilros also offers individual pieces like the Raspberry Pi Board, Raspberry Pi cables, cases, and much more!<br\/><\/p>","button_label":"","button_link":"","url_style":"button_1","enlarge_title":false,"enlarge_text":false,"full_width":false,"color_bg":"#ecf1f2","color_title":"#333333","color_text":"#333333"}}},"order":["main","16347429040d987cd7","16512439134f55edae","1634742498f888cdfb","1634742893351f18a8","163474291136ee2dfb","16347429141f04ae7c","16425431699fa4173a","16347429317d37fe83","1634742935b6274467","1651243997e2c28b29"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "blocks": {
+        "4a236cea-ef87-41c7-a4d3-40cbcb380dc1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "product": "",
+            "collection_colour": "#43467f",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 10,
+            "color_overlay_text": "#333333"
+          }
+        }
+      },
+      "block_order": [
+        "4a236cea-ef87-41c7-a4d3-40cbcb380dc1"
+      ],
+      "settings": {
+        "enable_feature_header": false,
+        "grid": 4,
+        "grid_mobile": "1",
+        "pagination_limit": 12,
+        "show_total": true,
+        "ajax_products": true,
+        "show_vendor": true,
+        "show_filters": true,
+        "show_filter_prod_counts": true,
+        "show_sort_by": true,
+        "show_featured": false
+      }
+    },
+    "16512439134f55edae": {
+      "type": "slideshow",
+      "blocks": {
+        "1651243913c10131d0-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_5400_x_2000_px.png",
+            "image_position": "center center",
+            "image_link": "",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 80,
+            "color_overlay_text": "#333333",
+            "overlay_title": "",
+            "overlay_text": "",
+            "overlay_url_text_1": "",
+            "overlay_url_1": "",
+            "overlay_url_text_2": "",
+            "overlay_url_2": "",
+            "overlay_url_style": "button_1",
+            "enlarge_title": false,
+            "enlarge_text": false,
+            "overlay_position_x": 50,
+            "overlay_position_y": 80,
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "show_chevron": true,
+            "product_id_1": "",
+            "chevron_position_1": "right",
+            "label_position_x_1": 20,
+            "label_position_y_1": 30,
+            "product_id_2": "",
+            "chevron_position_2": "right",
+            "label_position_x_2": 80,
+            "label_position_y_2": 50
+          }
+        },
+        "1651243913c10131d0-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image_position": "center center",
+            "image_link": "",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 80,
+            "color_overlay_text": "#333333",
+            "overlay_title": "Slideshow",
+            "overlay_text": "Use this section to welcome customers to your store, show off your images or display a promotion",
+            "overlay_url_text_1": "",
+            "overlay_url_1": "",
+            "overlay_url_text_2": "",
+            "overlay_url_2": "",
+            "overlay_url_style": "button_1",
+            "enlarge_title": false,
+            "enlarge_text": false,
+            "overlay_position_x": 50,
+            "overlay_position_y": 80,
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "show_chevron": true,
+            "product_id_1": "",
+            "chevron_position_1": "right",
+            "label_position_x_1": 20,
+            "label_position_y_1": 30,
+            "product_id_2": "",
+            "chevron_position_2": "right",
+            "label_position_x_2": 80,
+            "label_position_y_2": 50
+          }
+        }
+      },
+      "block_order": [
+        "1651243913c10131d0-0",
+        "1651243913c10131d0-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "mobile_text_below": true,
+        "slideshow_autoplay": true,
+        "slideshow_autoplay_speed": 6
+      }
+    },
+    "16347429040d987cd7": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Raspberry Pi Boards | Shop by Board:",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_bg": "#ecf1f2",
+        "color_title": "#333333",
+        "color_text": "#333333"
+      }
+    },
+    "1634742498f888cdfb": {
+      "type": "banner",
+      "disabled": true,
+      "blocks": {
+        "1634742498f888cdfb-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/aasdasd.png",
+            "image_position": "center center",
+            "image_link": "",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 0,
+            "color_overlay_text": "#333333",
+            "overlay_title": "",
+            "overlay_text": "",
+            "overlay_url_text_1": "",
+            "overlay_url_1": "",
+            "overlay_url_text_2": "",
+            "overlay_url_2": "",
+            "overlay_url_style": "button_1",
+            "enlarge_title": true,
+            "enlarge_text": false,
+            "overlay_position_x": 50,
+            "overlay_position_y": 50,
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "show_chevron": true,
+            "product_id_1": "",
+            "chevron_position_1": "right",
+            "label_position_x_1": 20,
+            "label_position_y_1": 30,
+            "product_id_2": "",
+            "chevron_position_2": "right",
+            "label_position_x_2": 80,
+            "label_position_y_2": 50
+          }
+        }
+      },
+      "block_order": [
+        "1634742498f888cdfb-1"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 300,
+        "height_mobile": 300,
+        "mobile_text_below": true,
+        "slideshow_autoplay": true,
+        "slideshow_autoplay_speed": 6
+      }
+    },
+    "1634742893351f18a8": {
+      "type": "image-gallery",
+      "blocks": {
+        "566c4b06-6141-452c-850f-ccb1fccf130c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_6.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "link": "shopify:\/\/collections\/pi-zero-2-w-main-page-collection",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "1634742893351f18a8-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_11.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "link": "shopify:\/\/collections\/raspberry-pi-4-main-page",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "1634742893351f18a8-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_10.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "link": "shopify:\/\/collections\/raspberry-pi-3-model-b",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "1634742893351f18a8-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_12.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "link": "shopify:\/\/collections\/raspberry-pi-zero",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "1634742893351f18a8-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_14.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "link": "shopify:\/\/collections\/raspberry-pi-pico",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "c50a6cc2-a8d8-4af5-8b5c-e0419711e2ce": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_15.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "link": "shopify:\/\/collections\/raspberry-pi-400",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "aa9d1b6a-c370-4f77-b73c-692b947644b3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_16.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "link": "shopify:\/\/collections\/compute-module",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "67cb4add-ae85-4a43-95c1-90eec5b9f7bf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_17.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "link": "shopify:\/\/collections\/compute-module",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        }
+      },
+      "block_order": [
+        "566c4b06-6141-452c-850f-ccb1fccf130c",
+        "1634742893351f18a8-0",
+        "1634742893351f18a8-1",
+        "1634742893351f18a8-3",
+        "1634742893351f18a8-2",
+        "c50a6cc2-a8d8-4af5-8b5c-e0419711e2ce",
+        "aa9d1b6a-c370-4f77-b73c-692b947644b3",
+        "67cb4add-ae85-4a43-95c1-90eec5b9f7bf"
+      ],
+      "settings": {
+        "grid": 4,
+        "image_height": 300,
+        "image_height_mobile": 300,
+        "enable_margin": true,
+        "enable_carousel": true,
+        "overlay_style": "box",
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "overlay_url_style": "button_1"
+      }
+    },
+    "163474291136ee2dfb": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Shop Accessories",
+        "text": "<p><br\/><\/p><p>Looking for the best accessories to help you get more out of your Raspberry Pi? Vilros has what you need. We offer programming, gaming and even hardware that's designed just with our custom cases! With high quality products at an affordable price - there is no wonder why so many people are turning towards us these days when they need something specific in their life.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": true,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_bg": "#ecf1f2",
+        "color_title": "#333333",
+        "color_text": "#333333"
+      }
+    },
+    "16347429141f04ae7c": {
+      "type": "image-gallery",
+      "blocks": {
+        "407f04ea-779a-4608-837b-e5c5bc9f0e70": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_18.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "link": "shopify:\/\/collections\/raspberry-pi-displays",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "4ba70d87-26dc-45d4-963d-4b514631222c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_19.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "link": "shopify:\/\/collections\/raspberry-pi-controllers",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "16347429141f04ae7c-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_20.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "link": "shopify:\/\/collections\/raspberry-pi-all-cases",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "16347429141f04ae7c-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_21.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "link": "shopify:\/\/collections\/raspberry-pi-all-keyboards",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "16347429141f04ae7c-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_22.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "link": "shopify:\/\/collections\/raspberry-pi-all-power-supplies",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "16347429141f04ae7c-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_24.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "link": "shopify:\/\/collections\/raspberry-pi-all-cameras",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "eefd2926-3581-4e04-ad4d-c6f7d64e878e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_26.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "link": "shopify:\/\/collections\/raspberry-pi-fans",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "099f8eaa-bb4b-460f-9f75-8b30dde193ab": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_28.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "link": "shopify:\/\/collections\/sd-cards",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        }
+      },
+      "block_order": [
+        "407f04ea-779a-4608-837b-e5c5bc9f0e70",
+        "4ba70d87-26dc-45d4-963d-4b514631222c",
+        "16347429141f04ae7c-0",
+        "16347429141f04ae7c-1",
+        "16347429141f04ae7c-2",
+        "16347429141f04ae7c-3",
+        "eefd2926-3581-4e04-ad4d-c6f7d64e878e",
+        "099f8eaa-bb4b-460f-9f75-8b30dde193ab"
+      ],
+      "settings": {
+        "grid": 4,
+        "image_height": 300,
+        "image_height_mobile": 300,
+        "enable_margin": true,
+        "enable_carousel": false,
+        "overlay_style": "box",
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "overlay_url_style": "button_1"
+      }
+    },
+    "166240136682d9e363": {
+      "type": "background-video",
+      "settings": {
+        "video": "https:\/\/youtu.be\/Hq8UVR0lwwg",
+        "image_position": "center center",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "overlay_title": "",
+        "overlay_text": "",
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "overlay_position_x": 50,
+        "overlay_position_y": 70,
+        "mobile_text_below": false,
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "vilros-raspberry-pi-4-compatible-deluxe-passive-cooling-case-black",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50
+      }
+    },
+    "16425431699fa4173a": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Vilros Accessories",
+        "enlarge_title": false,
+        "link_text": "Shop now",
+        "collection": "vilros-apparel",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "row_count": 1,
+        "grid_mobile": "2"
+      }
+    },
+    "16347429317d37fe83": {
+      "type": "get-the-look",
+      "disabled": true,
+      "blocks": {
+        "16347429317d37fe83-0": {
+          "type": "product",
+          "settings": {
+            "product_id": "vilros-raspberry-pi-4-snes-style-retro-gaming-kit-includes-2-snes-style-gamepads-and-snes-style-case"
+          }
+        },
+        "16347429317d37fe83-1": {
+          "type": "product",
+          "settings": {
+            "product_id": "vilros-raspberry-pi-4-ultimate-project-kit-inlcudes-retro-gaming-hardware"
+          }
+        }
+      },
+      "block_order": [
+        "16347429317d37fe83-0",
+        "16347429317d37fe83-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2014-11-02_17.35.58.0.0.jpg",
+        "image_position": "center center",
+        "background_color": "#cd201a",
+        "show_vendor": false,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "overlay_title": "RETRO GAMING",
+        "overlay_text": "Vilros has all the products you need to get started with Retro Pie for Raspberry Pi allowing you all of the retro games you loved.",
+        "overlay_url_text": "Get Gaming!",
+        "overlay_url": "shopify:\/\/collections\/retro-gaming",
+        "overlay_url_style": "button_2",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "overlay_position_y": 70
+      }
+    },
+    "1634742935b6274467": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Raspberry Pi Merch",
+        "enlarge_title": false,
+        "link_text": "Shop now",
+        "collection": "raspberry-pi-merch",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "row_count": 1,
+        "grid_mobile": "2"
+      }
+    },
+    "1651243997e2c28b29": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "text": "<p>Vilros Kits are another great place to begin any level of the project. <\/p><p>Start with the Raspberry Pi Basic Starter Kit or a Raspberry Pi Complete Starter Kits. <\/p><p>Vilros also offers individual pieces like the Raspberry Pi Board, Raspberry Pi cables, cases, and much more!<br\/><\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_bg": "#ecf1f2",
+        "color_title": "#333333",
+        "color_text": "#333333"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16512439134f55edae",
+    "16347429040d987cd7",
+    "1634742498f888cdfb",
+    "1634742893351f18a8",
+    "163474291136ee2dfb",
+    "16347429141f04ae7c",
+    "166240136682d9e363",
+    "16425431699fa4173a",
+    "16347429317d37fe83",
+    "1634742935b6274467",
+    "1651243997e2c28b29"
+  ]
+}

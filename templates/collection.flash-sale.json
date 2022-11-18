@@ -1,1 +1,140 @@
-{"sections":{"16443571723864a5f7":{"type":"banner","blocks":{"16443571727061d22f-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/2-02-02.jpg","image_position":"center center","image_link":"","color_overlay_bg":"#ffffff","overlay_opacity":80,"color_overlay_text":"#333333","overlay_title":"","overlay_text":"","overlay_url_text_1":"","overlay_url_1":"","overlay_url_text_2":"","overlay_url_2":"","overlay_url_style":"button_1","enlarge_title":false,"enlarge_text":false,"overlay_position_x":50,"overlay_position_y":80,"color_label_background":"#ffffff","color_label_text":"#333333","show_chevron":true,"product_id_1":"","chevron_position_1":"right","label_position_x_1":20,"label_position_y_1":30,"product_id_2":"","chevron_position_2":"right","label_position_x_2":80,"label_position_y_2":50}},"16443571727061d22f-1":{"type":"image","disabled":true,"settings":{"image_position":"center center","image_link":"","color_overlay_bg":"#ffffff","overlay_opacity":80,"color_overlay_text":"#333333","overlay_title":"Banner","overlay_text":"Use this full width section to welcome customers to your store, share some news or say something about your brand","overlay_url_text_1":"Optional buttons","overlay_url_1":"","overlay_url_text_2":"Optional buttons","overlay_url_2":"","overlay_url_style":"button_1","enlarge_title":false,"enlarge_text":false,"overlay_position_x":50,"overlay_position_y":80,"color_label_background":"#ffffff","color_label_text":"#333333","show_chevron":true,"product_id_1":"","chevron_position_1":"right","label_position_x_1":20,"label_position_y_1":30,"product_id_2":"","chevron_position_2":"right","label_position_x_2":80,"label_position_y_2":50}}},"block_order":["16443571727061d22f-0","16443571727061d22f-1"],"settings":{"height":"adapt","height_desktop":500,"height_mobile":400,"mobile_text_below":true,"slideshow_autoplay":true,"slideshow_autoplay_speed":6}},"164625103038e2c6ad":{"type":"rich-text","settings":{"title":"🔮 Monday Mystery Flash Sale 🔮","text":"<p>Vilros is here to help you survive Monday! We created this weekly sales so that no matter what, it will be better than before! Check back every week for more deals and don't forget about our email subscription which gives instant updates on all the newest Vilros Product Releases and Exclusive Sales!<\/p>","button_label":"","button_link":"","url_style":"button_1","enlarge_title":false,"enlarge_text":false,"full_width":false,"color_bg":"#ecf1f2","color_title":"#333333","color_text":"#333333"}},"main":{"type":"main-collection","blocks":{"4a236cea-ef87-41c7-a4d3-40cbcb380dc1":{"type":"collection","settings":{"collection":"","product":"","collection_colour":"#43467f","color_overlay_bg":"#ffffff","overlay_opacity":10,"color_overlay_text":"#333333"}}},"block_order":["4a236cea-ef87-41c7-a4d3-40cbcb380dc1"],"settings":{"enable_feature_header":false,"grid":4,"grid_mobile":"1","pagination_limit":12,"show_total":true,"ajax_products":true,"show_vendor":true,"show_filters":true,"show_filter_prod_counts":true,"show_sort_by":true,"show_featured":false}}},"order":["16443571723864a5f7","164625103038e2c6ad","main"]}
+{
+  "sections": {
+    "16443571723864a5f7": {
+      "type": "banner",
+      "blocks": {
+        "16443571727061d22f-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2-02-02.jpg",
+            "image_position": "center center",
+            "image_link": "",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 80,
+            "color_overlay_text": "#333333",
+            "overlay_title": "",
+            "overlay_text": "",
+            "overlay_url_text_1": "",
+            "overlay_url_1": "",
+            "overlay_url_text_2": "",
+            "overlay_url_2": "",
+            "overlay_url_style": "button_1",
+            "enlarge_title": false,
+            "enlarge_text": false,
+            "overlay_position_x": 50,
+            "overlay_position_y": 80,
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "show_chevron": true,
+            "product_id_1": "",
+            "chevron_position_1": "right",
+            "label_position_x_1": 20,
+            "label_position_y_1": 30,
+            "product_id_2": "",
+            "chevron_position_2": "right",
+            "label_position_x_2": 80,
+            "label_position_y_2": 50
+          }
+        },
+        "16443571727061d22f-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image_position": "center center",
+            "image_link": "",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 80,
+            "color_overlay_text": "#333333",
+            "overlay_title": "Banner",
+            "overlay_text": "Use this full width section to welcome customers to your store, share some news or say something about your brand",
+            "overlay_url_text_1": "Optional buttons",
+            "overlay_url_1": "",
+            "overlay_url_text_2": "Optional buttons",
+            "overlay_url_2": "",
+            "overlay_url_style": "button_1",
+            "enlarge_title": false,
+            "enlarge_text": false,
+            "overlay_position_x": 50,
+            "overlay_position_y": 80,
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "show_chevron": true,
+            "product_id_1": "",
+            "chevron_position_1": "right",
+            "label_position_x_1": 20,
+            "label_position_y_1": 30,
+            "product_id_2": "",
+            "chevron_position_2": "right",
+            "label_position_x_2": 80,
+            "label_position_y_2": 50
+          }
+        }
+      },
+      "block_order": [
+        "16443571727061d22f-0",
+        "16443571727061d22f-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 500,
+        "height_mobile": 400,
+        "mobile_text_below": true,
+        "slideshow_autoplay": true,
+        "slideshow_autoplay_speed": 6
+      }
+    },
+    "164625103038e2c6ad": {
+      "type": "rich-text",
+      "settings": {
+        "title": "🔮 Monday Mystery Flash Sale 🔮",
+        "text": "<p>Vilros is here to help you survive Monday! We created this weekly sales so that no matter what, it will be better than before! Check back every week for more deals and don't forget about our email subscription which gives instant updates on all the newest Vilros Product Releases and Exclusive Sales!<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_bg": "#ecf1f2",
+        "color_title": "#333333",
+        "color_text": "#333333"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "4a236cea-ef87-41c7-a4d3-40cbcb380dc1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "product": "",
+            "collection_colour": "#43467f",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 10,
+            "color_overlay_text": "#333333"
+          }
+        }
+      },
+      "block_order": [
+        "4a236cea-ef87-41c7-a4d3-40cbcb380dc1"
+      ],
+      "settings": {
+        "enable_feature_header": false,
+        "grid": 4,
+        "grid_mobile": "1",
+        "pagination_limit": 12,
+        "show_total": true,
+        "ajax_products": true,
+        "show_vendor": true,
+        "show_filters": true,
+        "show_filter_prod_counts": true,
+        "show_sort_by": true,
+        "show_featured": false
+      }
+    }
+  },
+  "order": [
+    "16443571723864a5f7",
+    "164625103038e2c6ad",
+    "main"
+  ]
+}

@@ -137,34 +137,7 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
   <!-- /Algolia head -->
 
   
-{% include 'flashify-common' %}<!-- SchemaAPP Liquid Start -->
-{% if template.name == 'product'%}
-    {% assign schema_app_markup = product.metafields.schemaapp.schema %}
-    
-{% elsif template.name == 'collection' %}
-    {% assign schema_app_markup = collection.metafields.schemaapp.schema %}
-    
-{% elsif template.name == 'article' %}
-    {% assign schema_app_markup =  article.metafields.schemaapp.schema %}
-
-{% elsif template.name == 'blog' %}
-    {% assign schema_app_markup = blog.metafields.schemaapp.schema %}
-    
-{% elsif template.name == 'page' %}
-    {% assign schema_app_markup = page.metafields.schemaapp.schema %}
-
-{% elsif template.name == 'index' %}
-    {% assign schema_app_markup =  shop.metafields.schemaapp.schema %}
-
-{% endif %}
-
-{% if schema_app_markup %}
-    <script type="application/ld+json">
-        {{ schema_app_markup }}
-    </script>
-{% endif %}
-<!-- SchemaAPP Liquid End -->
-
+{% include 'flashify-common' %}
 <!-- Global site tag (gtag.js) - Google Ads: 1028662280 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-1028662280"></script>
 <script>

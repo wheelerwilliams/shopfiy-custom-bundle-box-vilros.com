@@ -1,4 +1,4 @@
-<div class="product-block {{ grid_class | default: 'grid-flex__item one-quarter small-down--one-half' }} {% if quickbuy %} js-contains-quickbuy{% endif %}  {% for t in product.tags %} {{ t | handleize }}{% endfor %}" product-id="{{ product.id }}" variant-id="{{ product.selected_or_first_available_variant.id }}">
+<div class="product-block {{ grid_class | default: 'grid-flex__item one-quarter small-down--one-half' }} {% if quickbuy %} js-contains-quickbuy{% endif %}  {% for t in product.tags %} {{ t | handleize }}{% endfor %}" product-id="{{ product.id }}" variant-id="{{ product.selected_or_first_available_variant.id }}" quantity="{{product.selected_or_first_available_variant.inventory_quantity}}">
   <div class="product-block__image-container">
     <div class="global-border-radius hover-images {% if settings.hover_image_enabled == true and product.media.size > 1 %} hover-images--two {% if product.featured_media.preview_image.aspect_ratio == product.media[1].preview_image.aspect_ratio %}same-aspect-ratio{% endif %}{% endif %} relative">
       <a class="product-block__image" href="{{ product.url | within: collection }}">
@@ -83,7 +83,8 @@
 
   {% if settings.swatch_enabled %}
     {%- for option in product.options -%}
-      {%- if option == settings.swatch_option_name -%}
+    {% assign swatch_option_names = settings.swatch_option_name | split: "," %}
+      {%- if option == swatch_option_names[0] -%}
         {%- capture value_key -%}option{{ forloop.index }}{%- endcapture -%}
         {%- capture colours -%},{%- endcapture -%}
         {%- for variant in product.variants -%}
@@ -118,14 +119,51 @@
           {%- endfor -%}
         {%- endif -%}
         <div class="product-swatch-inline" data-swatch-count="{{ non_blank_colours }}">
+        {% assign variants = product.variants %}
           {%- for colour in colours -%}
             {% unless colour == blank %}
-              <span class="product-swatch-inline__dot bg-{{ colour | handle }}" {% if settings.swatch_method == 'images' %}style="background-image: url({{ colour | handle | append: '.png' | file_img_url: '40x40', crop: 'center' }})"{% endif %}></span>
+              <span class="product-swatch-inline__dot bg-{{ colour | handle }}" variant-id="{{variants[forloop.index].id}}" {% if settings.swatch_method == 'images' %}style="background-image: url({{ colour | handle | append: '.png' | file_img_url: '40x40', crop: 'center' }})"{% endif %} title="{{colour}}"></span>
+            {% endunless %}
+          {%- endfor -%}
+        </div>
+      {%- endif -%}
+      {%- if option == swatch_option_names[1] -%}
+        {%- capture value_key -%}option{{ forloop.index }}{%- endcapture -%}
+        {%- capture sizes -%},{%- endcapture -%}
+        {%- for variant in product.variants -%}
+          {%- capture size_compare -%},{{ variant[value_key] }},{%- endcapture -%}
+          {%- unless sizes contains size_compare -%}
+            {%- capture sizes -%}{{ sizes }}{{ variant[value_key] }},{%- endcapture -%}
+          {%- endunless -%}
+        {%- endfor -%}
+
+        {%- assign sizes = sizes | split: ',' -%}
+        {%- assign non_blank_sizes = 0 -%}
+          {%- for size in sizes -%}
+            {%- unless size == blank -%}{%- assign non_blank_sizes = non_blank_sizes | plus: 1 -%}{%- endunless -%}
+          {%- endfor -%}
+        <div class="product-swatch-inline" data-swatch-count="{{ non_blank_sizes }}">
+        {% assign variants = product.variants %}
+          {%- for size in sizes -%}
+            {% unless size == blank %}
+              <span class="product-swatch-inline__size" title="{{size}}">{{size}}</span>
             {% endunless %}
           {%- endfor -%}
         </div>
       {%- endif -%}
     {%- endfor -%}
+  {% endif %}
+
+  {% if custom_swatches == true %}
+    <select name="id" class="no-js" data-product-select aria-label="{{ 'products.product.selector_label' | t | escape }}">
+      {% for variant in product.variants %}
+        <option
+          {% if variant == current_variant %}selected="selected"{% endif %}
+          {% unless variant.available %}disabled="disabled"{% endunless %}
+          value="{{ variant.id }}"
+          data-stock="{% if variant.inventory_management == 'shopify' and variant.inventory_quantity <= 0 %}out{% endif %}">{{ variant.title }}</option>
+      {% endfor %}
+    </select>
   {% endif %}
 {% comment %}
   <div class="theme-product-reviews-summary">

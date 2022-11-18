@@ -5406,6 +5406,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
       sku: '.sku-wrapper__sku',
       styledSelect: '.selector-wrapper select',
       quantitySelect: '.quantity-proxy',
+      klaviyoForm: '.klaviyo-bis-trigger',
       storeAvailability: '[data-store-availability-container]'
     });
     /**
@@ -5543,6 +5544,14 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
        */
       updateSKU: function updateSKU(evt) {
         var variant = evt.variant;
+        
+        if (variant.available) {
+          $(selectors.klaviyoForm, this.$container).addClass('hide-klaviyo-form');
+          $(selectors.klaviyoForm, this.$container).removeClass('show-klaviyo-form');
+        } else {
+          $(selectors.klaviyoForm, this.$container).addClass('show-klaviyo-form');
+          $(selectors.klaviyoForm, this.$container).removeClass('hide-klaviyo-form'); 
+        }        
 
         if (variant && variant.sku) {
           $(selectors.skuWrapper, this.$container).removeClass('sku-wrapper--empty');

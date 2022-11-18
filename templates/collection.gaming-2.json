@@ -1,1 +1,499 @@
-{"sections":{"16516748223eb35bf2":{"type":"slideshow","blocks":{"165167482223a9f4c1-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/retro_gaming_72_dpi-01.png","image_position":"center center","image_link":"","color_overlay_bg":"#ffffff","overlay_opacity":80,"color_overlay_text":"#333333","overlay_title":"","overlay_text":"","overlay_url_text_1":"","overlay_url_1":"","overlay_url_text_2":"","overlay_url_2":"","overlay_url_style":"button_1","enlarge_title":false,"enlarge_text":false,"overlay_position_x":71,"overlay_position_y":28,"color_label_background":"#ffffff","color_label_text":"#333333","show_chevron":true,"product_id_1":"wireless-usb-retro-gaming-snes-gamepads","chevron_position_1":"left","label_position_x_1":100,"label_position_y_1":62,"product_id_2":"raspberry-pi-retro-gaming-case","chevron_position_2":"right","label_position_x_2":2,"label_position_y_2":71}},"165167482223a9f4c1-1":{"type":"image","disabled":true,"settings":{"image_position":"center center","image_link":"","color_overlay_bg":"#ffffff","overlay_opacity":80,"color_overlay_text":"#333333","overlay_title":"Slideshow","overlay_text":"Use this section to welcome customers to your store, show off your images or display a promotion","overlay_url_text_1":"","overlay_url_1":"","overlay_url_text_2":"","overlay_url_2":"","overlay_url_style":"button_1","enlarge_title":false,"enlarge_text":false,"overlay_position_x":50,"overlay_position_y":80,"color_label_background":"#ffffff","color_label_text":"#333333","show_chevron":true,"product_id_1":"","chevron_position_1":"right","label_position_x_1":20,"label_position_y_1":30,"product_id_2":"","chevron_position_2":"right","label_position_x_2":80,"label_position_y_2":50}}},"block_order":["165167482223a9f4c1-0","165167482223a9f4c1-1"],"settings":{"height":"adapt","height_desktop":600,"height_mobile":500,"mobile_text_below":true,"slideshow_autoplay":true,"slideshow_autoplay_speed":6}},"1634752199da8cf556":{"type":"banner","disabled":true,"blocks":{"1634752199da8cf556-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/2_1.jpg","image_position":"center center","image_link":"","color_overlay_bg":"#ffffff","overlay_opacity":80,"color_overlay_text":"#333333","overlay_title":"","overlay_text":"","overlay_url_text_1":"","overlay_url_1":"","overlay_url_text_2":"","overlay_url_2":"","overlay_url_style":"link_style","enlarge_title":false,"enlarge_text":false,"overlay_position_x":50,"overlay_position_y":80,"color_label_background":"#ffffff","color_label_text":"#333333","show_chevron":true,"product_id_1":"","chevron_position_1":"right","label_position_x_1":20,"label_position_y_1":30,"product_id_2":"","chevron_position_2":"right","label_position_x_2":80,"label_position_y_2":50}},"1634752199da8cf556-1":{"type":"image","disabled":true,"settings":{"image_position":"center center","image_link":"","color_overlay_bg":"#ffffff","overlay_opacity":80,"color_overlay_text":"#333333","overlay_title":"Banner","overlay_text":"Use this full width section to welcome customers to your store, share some news or say something about your brand","overlay_url_text_1":"Optional buttons","overlay_url_1":"","overlay_url_text_2":"Optional buttons","overlay_url_2":"","overlay_url_style":"button_1","enlarge_title":false,"enlarge_text":false,"overlay_position_x":50,"overlay_position_y":80,"color_label_background":"#ffffff","color_label_text":"#333333","show_chevron":true,"product_id_1":"","chevron_position_1":"right","label_position_x_1":20,"label_position_y_1":30,"product_id_2":"","chevron_position_2":"right","label_position_x_2":80,"label_position_y_2":50}}},"block_order":["1634752199da8cf556-0","1634752199da8cf556-1"],"settings":{"height":"fixed","height_desktop":620,"height_mobile":200,"mobile_text_below":true,"slideshow_autoplay":true,"slideshow_autoplay_speed":6}},"163484701384e4b51a":{"type":"rich-text","settings":{"title":"Introducing Raspberry Pi 4 Model B","text":"<p><br\/><\/p><p>Included with the new Raspberry Pi 4 Model B are several groundbreaking technological developments that offer users more power and choice for the projects they can create. Some of these developments include increased processor speed, increased memory, increased multimedia possibilities, and increased connectivity compared to the previous <a href=\"\/collections\/raspberry-pi-3-model-b\" target=\"_blank\" title=\"Raspberry Pi 3 Model B\">Raspberry Pi 3 Model B+<\/a>.<\/p>","button_label":"","button_link":"","url_style":"button_1","enlarge_title":false,"enlarge_text":false,"full_width":false,"color_bg":"#ecf1f2","color_title":"#333333","color_text":"#333333"}},"163484559925dde9f4":{"type":"featured-collection","settings":{"title":"Shop Raspberry Pi 4","enlarge_title":false,"link_text":"See More","collection":"raspberry-pi-4","show_vendor":false,"enable_carousel":true,"grid":4,"row_count":1,"grid_mobile":"2"}},"1634845592acdf2edc":{"type":"image-with-text-overlay","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/pattern_bc6805e4-6741-4896-b5b9-de268f6d5c1a.png","image_link":"","image_position":"center center","height":"adapt","height_desktop":600,"height_mobile":500,"color_overlay_bg":"#ffffff","overlay_opacity":80,"color_overlay_text":"#333333","overlay_title":"Raspberry Pi 4","overlay_text":"Your tiny dual-display, desktop computer.","overlay_url_text_1":"","overlay_url_1":"","overlay_url_text_2":"","overlay_url_2":"","overlay_url_style":"button_1","enlarge_title":true,"enlarge_text":true,"overlay_position_x":78,"overlay_position_y":50,"mobile_text_below":false,"color_label_background":"#ffffff","color_label_text":"#333333","show_chevron":true,"product_id_1":"","chevron_position_1":"right","label_position_x_1":20,"label_position_y_1":30,"product_id_2":"","chevron_position_2":"right","label_position_x_2":80,"label_position_y_2":50}},"1634849123c586f0c7":{"type":"rich-text","settings":{"title":"Shop Accessories","text":"<p>The best accessories for the new Raspberry Pi 4 are waiting to be discovered, including cases that will keep your precious device safe from harm. Whether you're looking into getting one as a gift or just want something special yourself- these items have what it takes! The Best Accessories for Your Raspberry Pi 4<br\/>Raspberry pi has been a popular and successful mini computer that plugs into any TV or monitor. It's great as an educational tool, but many people use them in thier homes too! If you're looking at picking up one of these sweet little devices we've got the perfect accessories to go with it: cases; controllers (such as keyboards); displays--and more!<\/p>","button_label":"","button_link":"","url_style":"button_1","enlarge_title":false,"enlarge_text":false,"full_width":false,"color_bg":"#ecf1f2","color_title":"#333333","color_text":"#333333"}},"main":{"type":"main-collection","disabled":true,"blocks":{"4a236cea-ef87-41c7-a4d3-40cbcb380dc1":{"type":"collection","settings":{"collection":"","product":"","collection_colour":"#43467f","color_overlay_bg":"#ffffff","overlay_opacity":10,"color_overlay_text":"#333333"}},"530f7cdd-419b-409a-a2e7-4d862d47eeec":{"type":"collection","settings":{"collection":"","product":"","collection_colour":"#43467f","color_overlay_bg":"#ffffff","overlay_opacity":10,"color_overlay_text":"#333333"}}},"block_order":["4a236cea-ef87-41c7-a4d3-40cbcb380dc1","530f7cdd-419b-409a-a2e7-4d862d47eeec"],"settings":{"enable_feature_header":false,"grid":4,"grid_mobile":"1","pagination_limit":12,"show_total":true,"ajax_products":true,"show_vendor":true,"show_filters":true,"show_filter_prod_counts":true,"show_sort_by":true,"show_featured":false}},"1634752359e1973145":{"type":"image-gallery","blocks":{"1634752359e1973145-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_21.png","alignment":"center center","enlarge_image":false,"link":"shopify:\/\/collections\/raspberry-pi-all-keyboards","title":"","text":"","button_label":"","overlay_position":"center-center"}},"1634752359e1973145-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_24.png","alignment":"center center","enlarge_image":false,"link":"shopify:\/\/collections\/raspberry-pi-all-cameras","title":"","text":"","button_label":"","overlay_position":"center-center"}},"1634752359e1973145-2":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_22.png","alignment":"center center","enlarge_image":false,"link":"shopify:\/\/collections\/raspberry-pi-4-chargers-power-supplies","title":"","text":"","button_label":"","overlay_position":"center-center"}},"1bdea81e-742a-48ae-855a-6d6c1c346a6b":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_18.png","alignment":"center center","enlarge_image":false,"link":"shopify:\/\/collections\/raspberry-pi-displays","title":"","text":"","button_label":"","overlay_position":"center-center"}},"1634752359e1973145-3":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_26.png","alignment":"center center","enlarge_image":false,"link":"shopify:\/\/collections\/raspberry-pi-fans","title":"","text":"","button_label":"","overlay_position":"center-center"}},"5eac3078-818b-424b-a92b-60b192c48413":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_20.png","alignment":"center center","enlarge_image":false,"link":"shopify:\/\/collections\/raspberry-pi-4-cases","title":"","text":"","button_label":"","overlay_position":"center-center"}},"0f283126-c6d7-4d8c-a45f-dce3b109a7c5":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_27.png","alignment":"center center","enlarge_image":false,"link":"shopify:\/\/collections\/sd-cards","title":"","text":"","button_label":"","overlay_position":"center-center"}},"5cc19f38-df4c-4e34-84dc-014890657c57":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_19.png","alignment":"center center","enlarge_image":false,"link":"shopify:\/\/collections\/raspberry-pi-controllers","title":"","text":"","button_label":"","overlay_position":"center-center"}}},"block_order":["1634752359e1973145-0","1634752359e1973145-1","1634752359e1973145-2","1bdea81e-742a-48ae-855a-6d6c1c346a6b","1634752359e1973145-3","5eac3078-818b-424b-a92b-60b192c48413","0f283126-c6d7-4d8c-a45f-dce3b109a7c5","5cc19f38-df4c-4e34-84dc-014890657c57"],"settings":{"grid":4,"image_height":300,"image_height_mobile":300,"enable_margin":true,"enable_carousel":false,"overlay_style":"box","color_overlay_bg":"#ffffff","overlay_opacity":80,"color_overlay_text":"#333333","overlay_url_style":"button_1"}},"1634847222a3a0b94f":{"type":"rich-text","settings":{"title":"The best thing comes in small packages.","text":"<p>The Raspberry Pi 4 Model B is a powerful and slim computer that will make you the envy of all your friends. It features  upgraded processor, more memory options for less cash than ever before! <\/p><p>The size has not changed much but what's inside does - this time around there's no slower predecessors thanks to its 1.5GHz Quad Core A72 CPU with 64 Bit SoC or ARM designed BCM 2711 quad core chip (with Mali G31 graphic processing unit). If power isn't enough consider how sleek it looks; measuring 3\/4 inch wide by 2 inches tall while weighing only about 0.4 lbs without accessories making installation easy peasy lemon squeezy<\/p>","button_label":"","button_link":"","url_style":"button_1","enlarge_title":false,"enlarge_text":false,"full_width":false,"color_bg":"#ecf1f2","color_title":"#333333","color_text":"#333333"}},"163484437679d35732":{"type":"custom-liquid","disabled":true,"settings":{"custom_liquid":""}},"1634847605cb0c88de":{"type":"featured-product","settings":{"product":"vilros-raspberry-pi-4-basic-starter-kit-with-fan-cooled-heavy-duty-aluminum-alloy-case","description":"<p>• Comes with all the items you need to get started<br\/>• Case is heavy-duty and fan-cooled for longevity<br\/>• Your choice of GB size, with accompanying heat sink + usb power supply<br\/>• Updated quickstart guide based on latest updates<\/p>","show_vendor":false,"url_style":"button_2","enlarge_title":false,"enlarge_text":false,"section_background_colour":"#dae4e6","section_text_colour":"#333333","enable_video_looping":false,"layout":"image_after"}},"1634847628cccca602":{"type":"featured-product","disabled":true,"settings":{"product":"vilros-raspberry-pi-4-complete-starter-kit-with-fan-cooled-heavy-duty-aluminum-alloy-case","description":"<p>• Makes the perfect gift for makers and hobbyists<br\/>• Encourages learning in STEM fields<br\/>• Comes with a heavy-duty aluminum alloy case and USB-C power supply to ensure your raspberry pi and accessories stay protected<br\/>• Includes everything you need: NOOBS, Micro SD card, HDMI cable, Power Supply   <\/p><p>• Offers tutorials on how to use the kit.<\/p>","show_vendor":false,"url_style":"button_1","enlarge_title":false,"enlarge_text":false,"section_background_colour":"#dae4e6","section_text_colour":"#333333","enable_video_looping":false,"layout":"image_before"}}},"order":["16516748223eb35bf2","1634752199da8cf556","163484701384e4b51a","163484559925dde9f4","1634845592acdf2edc","1634849123c586f0c7","main","1634752359e1973145","1634847222a3a0b94f","163484437679d35732","1634847605cb0c88de","1634847628cccca602"]}
+{
+  "sections": {
+    "16516748223eb35bf2": {
+      "type": "slideshow",
+      "blocks": {
+        "165167482223a9f4c1-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/retro_gaming_72_dpi-01.png",
+            "image_position": "center center",
+            "image_link": "",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 80,
+            "color_overlay_text": "#333333",
+            "overlay_title": "",
+            "overlay_text": "",
+            "overlay_url_text_1": "",
+            "overlay_url_1": "",
+            "overlay_url_text_2": "",
+            "overlay_url_2": "",
+            "overlay_url_style": "button_1",
+            "enlarge_title": false,
+            "enlarge_text": false,
+            "overlay_position_x": 71,
+            "overlay_position_y": 28,
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "show_chevron": true,
+            "product_id_1": "wireless-usb-retro-gaming-snes-gamepads",
+            "chevron_position_1": "left",
+            "label_position_x_1": 100,
+            "label_position_y_1": 62,
+            "product_id_2": "raspberry-pi-retro-gaming-case",
+            "chevron_position_2": "right",
+            "label_position_x_2": 2,
+            "label_position_y_2": 71
+          }
+        },
+        "165167482223a9f4c1-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image_position": "center center",
+            "image_link": "",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 80,
+            "color_overlay_text": "#333333",
+            "overlay_title": "Slideshow",
+            "overlay_text": "Use this section to welcome customers to your store, show off your images or display a promotion",
+            "overlay_url_text_1": "",
+            "overlay_url_1": "",
+            "overlay_url_text_2": "",
+            "overlay_url_2": "",
+            "overlay_url_style": "button_1",
+            "enlarge_title": false,
+            "enlarge_text": false,
+            "overlay_position_x": 50,
+            "overlay_position_y": 80,
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "show_chevron": true,
+            "product_id_1": "",
+            "chevron_position_1": "right",
+            "label_position_x_1": 20,
+            "label_position_y_1": 30,
+            "product_id_2": "",
+            "chevron_position_2": "right",
+            "label_position_x_2": 80,
+            "label_position_y_2": 50
+          }
+        }
+      },
+      "block_order": [
+        "165167482223a9f4c1-0",
+        "165167482223a9f4c1-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "mobile_text_below": true,
+        "slideshow_autoplay": true,
+        "slideshow_autoplay_speed": 6
+      }
+    },
+    "1634752199da8cf556": {
+      "type": "banner",
+      "disabled": true,
+      "blocks": {
+        "1634752199da8cf556-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_1.jpg",
+            "image_position": "center center",
+            "image_link": "",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 80,
+            "color_overlay_text": "#333333",
+            "overlay_title": "",
+            "overlay_text": "",
+            "overlay_url_text_1": "",
+            "overlay_url_1": "",
+            "overlay_url_text_2": "",
+            "overlay_url_2": "",
+            "overlay_url_style": "link_style",
+            "enlarge_title": false,
+            "enlarge_text": false,
+            "overlay_position_x": 50,
+            "overlay_position_y": 80,
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "show_chevron": true,
+            "product_id_1": "",
+            "chevron_position_1": "right",
+            "label_position_x_1": 20,
+            "label_position_y_1": 30,
+            "product_id_2": "",
+            "chevron_position_2": "right",
+            "label_position_x_2": 80,
+            "label_position_y_2": 50
+          }
+        },
+        "1634752199da8cf556-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image_position": "center center",
+            "image_link": "",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 80,
+            "color_overlay_text": "#333333",
+            "overlay_title": "Banner",
+            "overlay_text": "Use this full width section to welcome customers to your store, share some news or say something about your brand",
+            "overlay_url_text_1": "Optional buttons",
+            "overlay_url_1": "",
+            "overlay_url_text_2": "Optional buttons",
+            "overlay_url_2": "",
+            "overlay_url_style": "button_1",
+            "enlarge_title": false,
+            "enlarge_text": false,
+            "overlay_position_x": 50,
+            "overlay_position_y": 80,
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "show_chevron": true,
+            "product_id_1": "",
+            "chevron_position_1": "right",
+            "label_position_x_1": 20,
+            "label_position_y_1": 30,
+            "product_id_2": "",
+            "chevron_position_2": "right",
+            "label_position_x_2": 80,
+            "label_position_y_2": 50
+          }
+        }
+      },
+      "block_order": [
+        "1634752199da8cf556-0",
+        "1634752199da8cf556-1"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 620,
+        "height_mobile": 200,
+        "mobile_text_below": true,
+        "slideshow_autoplay": true,
+        "slideshow_autoplay_speed": 6
+      }
+    },
+    "163484701384e4b51a": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Introducing Raspberry Pi 4 Model B",
+        "text": "<p><br\/><\/p><p>Included with the new Raspberry Pi 4 Model B are several groundbreaking technological developments that offer users more power and choice for the projects they can create. Some of these developments include increased processor speed, increased memory, increased multimedia possibilities, and increased connectivity compared to the previous <a href=\"\/collections\/raspberry-pi-3-model-b\" target=\"_blank\" title=\"Raspberry Pi 3 Model B\">Raspberry Pi 3 Model B+<\/a>.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_bg": "#ecf1f2",
+        "color_title": "#333333",
+        "color_text": "#333333"
+      }
+    },
+    "163484559925dde9f4": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Shop Raspberry Pi 4",
+        "enlarge_title": false,
+        "link_text": "See More",
+        "collection": "raspberry-pi-4",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "row_count": 1,
+        "grid_mobile": "2"
+      }
+    },
+    "1634845592acdf2edc": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pattern_bc6805e4-6741-4896-b5b9-de268f6d5c1a.png",
+        "image_link": "",
+        "image_position": "center center",
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "overlay_title": "Raspberry Pi 4",
+        "overlay_text": "Your tiny dual-display, desktop computer.",
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "enlarge_title": true,
+        "enlarge_text": true,
+        "overlay_position_x": 78,
+        "overlay_position_y": 50,
+        "mobile_text_below": false,
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50
+      }
+    },
+    "1634849123c586f0c7": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Shop Accessories",
+        "text": "<p>The best accessories for the new Raspberry Pi 4 are waiting to be discovered, including cases that will keep your precious device safe from harm. Whether you're looking into getting one as a gift or just want something special yourself- these items have what it takes! The Best Accessories for Your Raspberry Pi 4<br\/>Raspberry pi has been a popular and successful mini computer that plugs into any TV or monitor. It's great as an educational tool, but many people use them in thier homes too! If you're looking at picking up one of these sweet little devices we've got the perfect accessories to go with it: cases; controllers (such as keyboards); displays--and more!<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_bg": "#ecf1f2",
+        "color_title": "#333333",
+        "color_text": "#333333"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "blocks": {
+        "4a236cea-ef87-41c7-a4d3-40cbcb380dc1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "product": "",
+            "collection_colour": "#43467f",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 10,
+            "color_overlay_text": "#333333"
+          }
+        },
+        "530f7cdd-419b-409a-a2e7-4d862d47eeec": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "product": "",
+            "collection_colour": "#43467f",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 10,
+            "color_overlay_text": "#333333"
+          }
+        }
+      },
+      "block_order": [
+        "4a236cea-ef87-41c7-a4d3-40cbcb380dc1",
+        "530f7cdd-419b-409a-a2e7-4d862d47eeec"
+      ],
+      "settings": {
+        "enable_feature_header": false,
+        "grid": 4,
+        "grid_mobile": "1",
+        "pagination_limit": 12,
+        "show_total": true,
+        "ajax_products": true,
+        "show_vendor": true,
+        "show_filters": true,
+        "show_filter_prod_counts": true,
+        "show_sort_by": true,
+        "show_featured": false
+      }
+    },
+    "1634752359e1973145": {
+      "type": "image-gallery",
+      "blocks": {
+        "1634752359e1973145-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_21.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "link": "shopify:\/\/collections\/raspberry-pi-all-keyboards",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "1634752359e1973145-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_24.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "link": "shopify:\/\/collections\/raspberry-pi-all-cameras",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "1634752359e1973145-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_22.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "link": "shopify:\/\/collections\/raspberry-pi-4-chargers-power-supplies",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "1bdea81e-742a-48ae-855a-6d6c1c346a6b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_18.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "link": "shopify:\/\/collections\/raspberry-pi-displays",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "1634752359e1973145-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_26.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "link": "shopify:\/\/collections\/raspberry-pi-fans",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "5eac3078-818b-424b-a92b-60b192c48413": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_20.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "link": "shopify:\/\/collections\/raspberry-pi-4-cases",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "0f283126-c6d7-4d8c-a45f-dce3b109a7c5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_27.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "link": "shopify:\/\/collections\/sd-cards",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "5cc19f38-df4c-4e34-84dc-014890657c57": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_studio_1080_x_1080_px_19.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "link": "shopify:\/\/collections\/raspberry-pi-controllers",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        }
+      },
+      "block_order": [
+        "1634752359e1973145-0",
+        "1634752359e1973145-1",
+        "1634752359e1973145-2",
+        "1bdea81e-742a-48ae-855a-6d6c1c346a6b",
+        "1634752359e1973145-3",
+        "5eac3078-818b-424b-a92b-60b192c48413",
+        "0f283126-c6d7-4d8c-a45f-dce3b109a7c5",
+        "5cc19f38-df4c-4e34-84dc-014890657c57"
+      ],
+      "settings": {
+        "grid": 4,
+        "image_height": 300,
+        "image_height_mobile": 300,
+        "enable_margin": true,
+        "enable_carousel": false,
+        "overlay_style": "box",
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "overlay_url_style": "button_1"
+      }
+    },
+    "1634847222a3a0b94f": {
+      "type": "rich-text",
+      "settings": {
+        "title": "The best thing comes in small packages.",
+        "text": "<p>The Raspberry Pi 4 Model B is a powerful and slim computer that will make you the envy of all your friends. It features  upgraded processor, more memory options for less cash than ever before! <\/p><p>The size has not changed much but what's inside does - this time around there's no slower predecessors thanks to its 1.5GHz Quad Core A72 CPU with 64 Bit SoC or ARM designed BCM 2711 quad core chip (with Mali G31 graphic processing unit). If power isn't enough consider how sleek it looks; measuring 3\/4 inch wide by 2 inches tall while weighing only about 0.4 lbs without accessories making installation easy peasy lemon squeezy<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_bg": "#ecf1f2",
+        "color_title": "#333333",
+        "color_text": "#333333"
+      }
+    },
+    "163484437679d35732": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": ""
+      }
+    },
+    "1634847605cb0c88de": {
+      "type": "featured-product",
+      "settings": {
+        "product": "vilros-raspberry-pi-4-basic-starter-kit-with-fan-cooled-heavy-duty-aluminum-alloy-case",
+        "description": "<p>• Comes with all the items you need to get started<br\/>• Case is heavy-duty and fan-cooled for longevity<br\/>• Your choice of GB size, with accompanying heat sink + usb power supply<br\/>• Updated quickstart guide based on latest updates<\/p>",
+        "show_vendor": false,
+        "url_style": "button_2",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "section_background_colour": "#dae4e6",
+        "section_text_colour": "#333333",
+        "enable_video_looping": false,
+        "layout": "image_after"
+      }
+    },
+    "1634847628cccca602": {
+      "type": "featured-product",
+      "disabled": true,
+      "settings": {
+        "product": "vilros-raspberry-pi-4-complete-starter-kit-with-fan-cooled-heavy-duty-aluminum-alloy-case",
+        "description": "<p>• Makes the perfect gift for makers and hobbyists<br\/>• Encourages learning in STEM fields<br\/>• Comes with a heavy-duty aluminum alloy case and USB-C power supply to ensure your raspberry pi and accessories stay protected<br\/>• Includes everything you need: NOOBS, Micro SD card, HDMI cable, Power Supply   <\/p><p>• Offers tutorials on how to use the kit.<\/p>",
+        "show_vendor": false,
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "section_background_colour": "#dae4e6",
+        "section_text_colour": "#333333",
+        "enable_video_looping": false,
+        "layout": "image_before"
+      }
+    }
+  },
+  "order": [
+    "16516748223eb35bf2",
+    "1634752199da8cf556",
+    "163484701384e4b51a",
+    "163484559925dde9f4",
+    "1634845592acdf2edc",
+    "1634849123c586f0c7",
+    "main",
+    "1634752359e1973145",
+    "1634847222a3a0b94f",
+    "163484437679d35732",
+    "1634847605cb0c88de",
+    "1634847628cccca602"
+  ]
+}

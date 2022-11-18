@@ -1,4 +1,4 @@
-<div class="relative container {% if section.settings.enable_carousel == false and section.settings.enable_margin == false %} container--no-mobile-padding{% endif %} large-row gallery-section section-{{ section.id }}" data-section-type="gallery">
+<div class="bundle-board relative container {% if section.settings.enable_carousel == false and section.settings.enable_margin == false %} container--no-mobile-padding{% endif %} large-row gallery-section section-{{ section.id }}" data-section-type="gallery">
 
   {% style %}
     {% assign overlay_opacity = section.settings.overlay_opacity | divided_by: 100.00 | round: 2 %}
@@ -82,7 +82,7 @@
 {
   "name": "Bundle - Board",
   "tag": "section",
-  "class": "section-gallery bundle-section",
+  "class": "section-gallery bundle-section bundle-board",
   "settings": [
     {
       "type": "range",

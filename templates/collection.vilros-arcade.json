@@ -1,1 +1,271 @@
-{"sections":{"1635535141575d4676":{"type":"slideshow","blocks":{"1635535141575d4676-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Untitled_Website_2.png","image_position":"center center","image_link":"shopify:\/\/products\/raspberry-pi-compatible-tabletop-arcade-with-10inch-hd-monitor","color_overlay_bg":"#ffffff","overlay_opacity":80,"color_overlay_text":"#333333","overlay_title":"","overlay_text":"","overlay_url_text_1":"","overlay_url_1":"","overlay_url_text_2":"","overlay_url_2":"","overlay_url_style":"button_1","enlarge_title":false,"enlarge_text":false,"overlay_position_x":50,"overlay_position_y":80,"color_label_background":"#ffffff","color_label_text":"#333333","show_chevron":true,"product_id_1":"","chevron_position_1":"right","label_position_x_1":20,"label_position_y_1":30,"product_id_2":"","chevron_position_2":"right","label_position_x_2":80,"label_position_y_2":50}},"1635535141575d4676-1":{"type":"image","disabled":true,"settings":{"image_position":"center center","image_link":"","color_overlay_bg":"#ffffff","overlay_opacity":80,"color_overlay_text":"#333333","overlay_title":"Slideshow","overlay_text":"Use this section to welcome customers to your store, show off your images or display a promotion","overlay_url_text_1":"","overlay_url_1":"","overlay_url_text_2":"","overlay_url_2":"","overlay_url_style":"button_1","enlarge_title":false,"enlarge_text":false,"overlay_position_x":50,"overlay_position_y":80,"color_label_background":"#ffffff","color_label_text":"#333333","show_chevron":true,"product_id_1":"","chevron_position_1":"right","label_position_x_1":20,"label_position_y_1":30,"product_id_2":"","chevron_position_2":"right","label_position_x_2":80,"label_position_y_2":50}}},"block_order":["1635535141575d4676-0","1635535141575d4676-1"],"settings":{"height":"adapt","height_desktop":600,"height_mobile":500,"mobile_text_below":true,"slideshow_autoplay":true,"slideshow_autoplay_speed":6}},"163484701384e4b51a":{"type":"rich-text","settings":{"title":"Introducing Vilros Raspberry Pi Tabletop Arcade","text":"<p><\/p><p>The Vilros Raspberry Pi Compatible Tabletop Arcade Cabinet is a fully built and ready to use arcade machine that can easily connect your own raspberry pi 4 board. It features an internal Micro HDMI & USB-C connections for powering the device, 8 buttons with easy volume control as well as joystick support on top of it! This sleek gaming system also comes complete with everything needed inside including speakers so you don't need any external amplifiers or speakers when playing games at home. IMPORTANT: A Raspberry Pi 4 and a SD card are required to create an arcade with this cabinet. These items are not included.<\/p>","button_label":"Buy Now","button_link":"shopify:\/\/products\/raspberry-pi-compatible-tabletop-arcade-with-10inch-hd-monitor","url_style":"button_2","enlarge_title":true,"enlarge_text":false,"full_width":false,"color_bg":"#000e20","color_title":"#f4f6f8","color_text":"#ffffff"}},"1635868574e7d9aca4":{"type":"image-gallery","blocks":{"1635868574e7d9aca4-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Untitled_design_-_2021-11-02T124347.657.png","alignment":"center center","enlarge_image":false,"link":"shopify:\/\/products\/raspberry-pi-compatible-tabletop-arcade-with-10inch-hd-monitor","title":"","text":"","button_label":"","overlay_position":"center-center"}},"1635868574e7d9aca4-3":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Untitled_design_-_2021-11-02T131531.736.png","alignment":"center center","enlarge_image":false,"link":"shopify:\/\/products\/raspberry-pi-compatible-tabletop-arcade-with-10inch-hd-monitor","title":"","text":"","button_label":"","overlay_position":"center-center"}},"1635868574e7d9aca4-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Untitled_design_-_2021-11-02T124757.492.png","alignment":"center center","enlarge_image":false,"link":"shopify:\/\/products\/raspberry-pi-compatible-tabletop-arcade-with-10inch-hd-monitor","title":"","text":"","button_label":"","overlay_position":"center-center"}},"1635868574e7d9aca4-2":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Untitled_design_-_2021-11-02T131836.276.png","alignment":"center center","enlarge_image":false,"link":"shopify:\/\/products\/raspberry-pi-compatible-tabletop-arcade-with-10inch-hd-monitor","title":"","text":"","button_label":"","overlay_position":"center-center"}}},"block_order":["1635868574e7d9aca4-0","1635868574e7d9aca4-3","1635868574e7d9aca4-1","1635868574e7d9aca4-2"],"settings":{"grid":3,"image_height":320,"image_height_mobile":300,"enable_margin":true,"enable_carousel":true,"overlay_style":"box","color_overlay_bg":"#ffffff","overlay_opacity":80,"color_overlay_text":"#333333","overlay_url_style":"button_1"}},"163527386507e53d96":{"type":"featured-product","settings":{"product":"raspberry-pi-compatible-tabletop-arcade-with-10inch-hd-monitor","description":"","show_vendor":false,"url_style":"link_style","enlarge_title":false,"enlarge_text":false,"section_background_colour":"#000e20","section_text_colour":"#f4f4f4","enable_video_looping":false,"layout":"image_after"}},"main":{"type":"main-collection","disabled":true,"blocks":{"a01ce535-be2d-4770-8956-0c47c6162cba":{"type":"collection","disabled":true,"settings":{"collection":"","product":"","collection_colour":"#43467f","color_overlay_bg":"#ffffff","overlay_opacity":10,"color_overlay_text":"#333333"}}},"block_order":["a01ce535-be2d-4770-8956-0c47c6162cba"],"settings":{"enable_feature_header":false,"grid":4,"grid_mobile":"1","pagination_limit":12,"show_total":true,"ajax_products":true,"show_vendor":true,"show_filters":true,"show_filter_prod_counts":true,"show_sort_by":true,"show_featured":false}},"1635965807e1f1a06f":{"type":"background-video","disabled":true,"settings":{"video":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","image_position":"center center","height_desktop":600,"height_mobile":500,"color_overlay_bg":"#ffffff","overlay_opacity":80,"color_overlay_text":"#333333","overlay_title":"Background video","overlay_text":"Add text and product links over a video","overlay_url_text_1":"","overlay_url_1":"","overlay_url_text_2":"","overlay_url_2":"","overlay_url_style":"button_1","enlarge_title":false,"enlarge_text":false,"overlay_position_x":50,"overlay_position_y":70,"mobile_text_below":false,"color_label_background":"#ffffff","color_label_text":"#333333","show_chevron":true,"product_id_1":"","chevron_position_1":"right","label_position_x_1":20,"label_position_y_1":30,"product_id_2":"","chevron_position_2":"right","label_position_x_2":80,"label_position_y_2":50}}},"order":["1635535141575d4676","163484701384e4b51a","1635868574e7d9aca4","163527386507e53d96","main","1635965807e1f1a06f"]}
+{
+  "sections": {
+    "1635535141575d4676": {
+      "type": "slideshow",
+      "blocks": {
+        "1635535141575d4676-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_Website_2.png",
+            "image_position": "center center",
+            "image_link": "shopify:\/\/products\/raspberry-pi-compatible-tabletop-arcade-with-10inch-hd-monitor",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 80,
+            "color_overlay_text": "#333333",
+            "overlay_title": "",
+            "overlay_text": "",
+            "overlay_url_text_1": "",
+            "overlay_url_1": "",
+            "overlay_url_text_2": "",
+            "overlay_url_2": "",
+            "overlay_url_style": "button_1",
+            "enlarge_title": false,
+            "enlarge_text": false,
+            "overlay_position_x": 50,
+            "overlay_position_y": 80,
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "show_chevron": true,
+            "product_id_1": "",
+            "chevron_position_1": "right",
+            "label_position_x_1": 20,
+            "label_position_y_1": 30,
+            "product_id_2": "",
+            "chevron_position_2": "right",
+            "label_position_x_2": 80,
+            "label_position_y_2": 50
+          }
+        },
+        "1635535141575d4676-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image_position": "center center",
+            "image_link": "",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 80,
+            "color_overlay_text": "#333333",
+            "overlay_title": "Slideshow",
+            "overlay_text": "Use this section to welcome customers to your store, show off your images or display a promotion",
+            "overlay_url_text_1": "",
+            "overlay_url_1": "",
+            "overlay_url_text_2": "",
+            "overlay_url_2": "",
+            "overlay_url_style": "button_1",
+            "enlarge_title": false,
+            "enlarge_text": false,
+            "overlay_position_x": 50,
+            "overlay_position_y": 80,
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "show_chevron": true,
+            "product_id_1": "",
+            "chevron_position_1": "right",
+            "label_position_x_1": 20,
+            "label_position_y_1": 30,
+            "product_id_2": "",
+            "chevron_position_2": "right",
+            "label_position_x_2": 80,
+            "label_position_y_2": 50
+          }
+        }
+      },
+      "block_order": [
+        "1635535141575d4676-0",
+        "1635535141575d4676-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "mobile_text_below": true,
+        "slideshow_autoplay": true,
+        "slideshow_autoplay_speed": 6
+      }
+    },
+    "163484701384e4b51a": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Introducing Vilros Raspberry Pi Tabletop Arcade",
+        "text": "<p><\/p><p>The Vilros Raspberry Pi Compatible Tabletop Arcade Cabinet is a fully built and ready to use arcade machine that can easily connect your own raspberry pi 4 board. It features an internal Micro HDMI & USB-C connections for powering the device, 8 buttons with easy volume control as well as joystick support on top of it! This sleek gaming system also comes complete with everything needed inside including speakers so you don't need any external amplifiers or speakers when playing games at home. IMPORTANT: A Raspberry Pi 4 and a SD card are required to create an arcade with this cabinet. These items are not included.<\/p>",
+        "button_label": "Buy Now",
+        "button_link": "shopify:\/\/products\/raspberry-pi-compatible-tabletop-arcade-with-10inch-hd-monitor",
+        "url_style": "button_2",
+        "enlarge_title": true,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_bg": "#000e20",
+        "color_title": "#f4f6f8",
+        "color_text": "#ffffff"
+      }
+    },
+    "1635868574e7d9aca4": {
+      "type": "image-gallery",
+      "blocks": {
+        "1635868574e7d9aca4-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_-_2021-11-02T124347.657.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "link": "shopify:\/\/products\/raspberry-pi-compatible-tabletop-arcade-with-10inch-hd-monitor",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "1635868574e7d9aca4-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_-_2021-11-02T131531.736.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "link": "shopify:\/\/products\/raspberry-pi-compatible-tabletop-arcade-with-10inch-hd-monitor",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "1635868574e7d9aca4-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_-_2021-11-02T124757.492.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "link": "shopify:\/\/products\/raspberry-pi-compatible-tabletop-arcade-with-10inch-hd-monitor",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "1635868574e7d9aca4-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_-_2021-11-02T131836.276.png",
+            "alignment": "center center",
+            "enlarge_image": false,
+            "link": "shopify:\/\/products\/raspberry-pi-compatible-tabletop-arcade-with-10inch-hd-monitor",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        }
+      },
+      "block_order": [
+        "1635868574e7d9aca4-0",
+        "1635868574e7d9aca4-3",
+        "1635868574e7d9aca4-1",
+        "1635868574e7d9aca4-2"
+      ],
+      "settings": {
+        "grid": 3,
+        "image_height": 320,
+        "image_height_mobile": 300,
+        "enable_margin": true,
+        "enable_carousel": true,
+        "overlay_style": "box",
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "overlay_url_style": "button_1"
+      }
+    },
+    "163527386507e53d96": {
+      "type": "featured-product",
+      "settings": {
+        "product": "raspberry-pi-compatible-tabletop-arcade-with-10inch-hd-monitor",
+        "description": "",
+        "show_vendor": false,
+        "url_style": "link_style",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "section_background_colour": "#000e20",
+        "section_text_colour": "#f4f4f4",
+        "enable_video_looping": false,
+        "layout": "image_after"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "blocks": {
+        "a01ce535-be2d-4770-8956-0c47c6162cba": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "product": "",
+            "collection_colour": "#43467f",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 10,
+            "color_overlay_text": "#333333"
+          }
+        }
+      },
+      "block_order": [
+        "a01ce535-be2d-4770-8956-0c47c6162cba"
+      ],
+      "settings": {
+        "enable_feature_header": false,
+        "grid": 4,
+        "grid_mobile": "1",
+        "pagination_limit": 12,
+        "show_total": true,
+        "ajax_products": true,
+        "show_vendor": true,
+        "show_filters": true,
+        "show_filter_prod_counts": true,
+        "show_sort_by": true,
+        "show_featured": false
+      }
+    },
+    "1635965807e1f1a06f": {
+      "type": "background-video",
+      "disabled": true,
+      "settings": {
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "image_position": "center center",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "overlay_title": "Background video",
+        "overlay_text": "Add text and product links over a video",
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "overlay_position_x": 50,
+        "overlay_position_y": 70,
+        "mobile_text_below": false,
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50
+      }
+    }
+  },
+  "order": [
+    "1635535141575d4676",
+    "163484701384e4b51a",
+    "1635868574e7d9aca4",
+    "163527386507e53d96",
+    "main",
+    "1635965807e1f1a06f"
+  ]
+}

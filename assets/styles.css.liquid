@@ -11393,9 +11393,9 @@ input[type="submit"].btn--subtle-hover:hover,
 
 .product-swatch-inline__dot {
   display: inline-block;
-  width: 10px;
-  height: 10px;
-  border-radius: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
   margin: 6px 1px 0;
   box-shadow: inset 0 3px 3px -2px rgba(0, 0, 0, 0.25);
   background-size: 100%;
@@ -15214,13 +15214,24 @@ model-viewer button:hover {
       color: white;
       vertical-align: middle;
   }
+  .bundle-section .page-width{
+    max-width: 1000px;
+  }
   .bundle-section .grid-flex{
     margin-left: 0;
     margin-bottom: 0;
   }
+  .bundle-section .large-row{
+    margin-bottom: 0;
+  } 
   .bundle-section .grid-flex__item{
     margin: 1%;
-    padding: 10px;
+    padding: 5px;
+  }
+  .bundle-section .product-block{
+    padding-bottom: 70px;
+    padding-top: 0;
+    margin-top: 0;
   }
   .bundle-section .one-quarter{
     width: 23%;
@@ -15228,25 +15239,64 @@ model-viewer button:hover {
   .bundle-section:not(:first-of-type), #progressbar {
   	display: none;
   }
+  .bundle-section .gallery__image {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 
   .bundle-section .gallery__item.active{
-     border: 1px solid; 
+    border: 4px solid #ccc; 
+    border-radius: 5px;
   }
+  
   .bundle-section .product-block.active{
-    border: 1px solid;
-    border-radius:15px;
+    background: #fffff;
+    border: 3px solid #ccc;
+    border-radius: 5px;
   }
   .bundle-section .product-block a{
     pointer-events: none;
   }
+  .bundle-section .product-block .product-swatch-inline__dot.active{
+    border: 3px solid #40C2FF
+  }
   .bundle-section .product-block__image-container{
     height:auto !important;
+  }
+  .no-products{
+    display: none;
+    margin: auto;
+    margin-top:100px;
+  }
+  .product-swatch-inline__size{
+    border: 1px solid rgba(0,0,0,.3);
+    padding: 2px;
+    border-radius: 5px;
+  }
+  .product-swatch-inline__size.active{
+    background-color: #3c4043;
+    border-color: #3c4043;
+    color: #fff;
   }
 
 @media screen and (min-width: 1200px){
   .bundle-section .gallery {
-    min-height: 70vh;
+    min-height: 53vh;
+  }
+  .bundle-section .page-width .full-width{
+    min-height: 53vh;
   }
 }
 
-  
+/*   Custom code by Jay @ strongerEcommerce */
+  .show-klaviyo-form {
+    display: inline-block !important;
+  }
+  .hide-klaviyo-form {
+    display: none !important;
+  }
+
+  #shopify-privacy-banner {
+    bottom: 0% !important;
+  }
+/*   END Custom code by Jay @ strongerEcommerce */    
