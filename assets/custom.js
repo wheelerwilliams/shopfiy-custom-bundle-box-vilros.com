@@ -123,6 +123,9 @@ $(".bundle-section .product-block").each(function(){
   if (product.find(".product-swatch-inline span").length < 2){
     product.addClass("no-variants");
   }
+  else{
+    product.addClass("has-variants");
+  }
   for (let i = 0; i < product.find(".product-swatch-inline span").length; i++) {
     if(product.find("option:nth-child("+(i+1)+")").attr("data-stock") == "out"){
       product.find(".product-swatch-inline span:nth-child("+(i+1)+")").remove();
@@ -133,38 +136,33 @@ $(".bundle-section .product-block").each(function(){
   }
 })
 
-
-// Product swatch selection
-$(".bundle-section .product-block .product-swatch-inline span").click(function(){
+// Product selection
+$(".bundle-section .product-block .product-container").click(function(){
+  console.log("2")
   $(".bundle-section a").attr("href", "");
-  if($(this).hasClass("active")){
-    $(this).parents(".product-swatch-inline").find("span").removeClass("active");
-    $(this).parents(".product-block").removeClass("active");
+  if($(this).parents(".product-block").hasClass("active")){
+    $(this).parents(".product-block").find(".product-swatch-inline span").removeClass("active");
+    $(this).parents(".product-block").removeClass("active").addClass("inactive");
 
-    $(this).parents(".product-block").attr("variant-id", "")
-    
   }
   else{
-    $(this).parents(".product-swatch-inline").find("span").removeClass("active")
-    $(this).addClass("active");
-    $(this).parents(".product-block").addClass("active");
-    
-    $(this).parents(".product-block").attr("variant-id", $(this).attr("variant-id"))
-
+    $(this).parents(".product-block").removeClass("inactive").addClass("active");
+    if ($(this).parents(".product-block").hasClass("has-variants")){
+      $(this).parents(".product-block").find(".product-swatch-inline span:first-child").addClass("active");
+    }
   }
+  
 })
 
-// Product selection
-$(".bundle-section .product-block.no-variants").click(function(){
-  $(".bundle-section a").attr("href", "");
-  if($(this).hasClass("active")){
-    $(this).removeClass("active");
-    $(this).attr("variant-id", "")
-    
-  }
-  else{
+// Product swatch selection
+$(".bundle-section .product-block .swatch-container .product-swatch-inline span").click(function(){
+  console.log("1")
+  if ($(this).parents(".product-block").hasClass("active")){
+    $(".bundle-section a").attr("href", "");
+    $(this).parents(".product-swatch-inline").find("span").removeClass("active")
     $(this).addClass("active");
-    $(this).attr("variant-id", $(this).attr("variant-id"))
-
+    $(this).parents(".product-block").attr("variant-id", $(this).attr("variant-id"))
   }
+  
+
 })

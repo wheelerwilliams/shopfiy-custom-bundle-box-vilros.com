@@ -1,86 +1,88 @@
 <div class="product-block {{ grid_class | default: 'grid-flex__item one-quarter small-down--one-half' }} {% if quickbuy %} js-contains-quickbuy{% endif %}  {% for t in product.tags %} {{ t | handleize }}{% endfor %}" product-id="{{ product.id }}" variant-id="{{ product.selected_or_first_available_variant.id }}" quantity="{{product.selected_or_first_available_variant.inventory_quantity}}">
-  <div class="product-block__image-container">
-    <div class="global-border-radius hover-images {% if settings.hover_image_enabled == true and product.media.size > 1 %} hover-images--two {% if product.featured_media.preview_image.aspect_ratio == product.media[1].preview_image.aspect_ratio %}same-aspect-ratio{% endif %}{% endif %} relative">
-      <a class="product-block__image" href="{{ product.url | within: collection }}">
-        {% if product.featured_media != blank %}
+  <div class="product-container">
+    <div class="product-block__image-container">
+      <div class="global-border-radius hover-images {% if settings.hover_image_enabled == true and product.media.size > 1 %} hover-images--two {% if product.featured_media.preview_image.aspect_ratio == product.media[1].preview_image.aspect_ratio %}same-aspect-ratio{% endif %}{% endif %} relative">
+        <a class="product-block__image" href="{{ product.url | within: collection }}">
+          {% if product.featured_media != blank %}
 
-          <div class="image-one">
-            {% render 'responsive-image', image: product.featured_media.preview_image %}
-          </div>
-          {% if settings.hover_image_enabled == true and product.media.size > 1 %}
-            <div class="image-two">
-              <div class="rimage-background fade-in lazyload"
-                    data-bgset="{% render 'bgset', image: product.media[1].preview_image %}"
-                    data-sizes="auto"
-                    data-parent-fit="cover">
-                <noscript>
-                  <img src="{{ product.media[1].preview_image | img_url: '1024x1024' }}" alt="{{ product.media[1].preview_image.alt | escape }}" class="rimage-background__image">
-                </noscript>
-              </div>
+            <div class="image-one">
+              {% render 'responsive-image', image: product.featured_media.preview_image %}
             </div>
+            {% if settings.hover_image_enabled == true and product.media.size > 1 %}
+              <div class="image-two">
+                <div class="rimage-background fade-in lazyload"
+                      data-bgset="{% render 'bgset', image: product.media[1].preview_image %}"
+                      data-sizes="auto"
+                      data-parent-fit="cover">
+                  <noscript>
+                    <img src="{{ product.media[1].preview_image | img_url: '1024x1024' }}" alt="{{ product.media[1].preview_image.alt | escape }}" class="rimage-background__image">
+                  </noscript>
+                </div>
+              </div>
+            {% endif %}
+
+          {% else %}
+
+            {{- product.featured_media.preview_image | img_url: '600x600' | img_tag -}}
+
           {% endif %}
+        </a>
 
-        {% else %}
-
-          {{- product.featured_media.preview_image | img_url: '600x600' | img_tag -}}
-
+        {% if quickbuy %}
+          <a class="product-block__quicklook-btn btn--quicklook btn btn--primary js-quickbuy-button" href="{{ product.url }}">{{ 'products.quickbuy.quick_buy' | t }}</a>
+          {% render 'quick-buy-placeholder', product: product %}
         {% endif %}
-      </a>
 
-      {% if quickbuy %}
-        <a class="product-block__quicklook-btn btn--quicklook btn btn--primary js-quickbuy-button" href="{{ product.url }}">{{ 'products.quickbuy.quick_buy' | t }}</a>
-        {% render 'quick-buy-placeholder', product: product %}
+      </div>
+    </div>
+
+    <div class="product-block__title">
+      <a href="{{ product.url | within: collection }}" class="product-block__title-link">{{ product.title }}</a>
+    </div>
+  {% comment %}Start automatically added Judge.me widget{% endcomment %}
+    {% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', concierge_install: true, product: product %}
+  {% comment %}End automatically added Judge.me widget{% endcomment %}
+
+
+    {% if show_vendor %}
+      <div class="product-block__vendor">
+        {{- product.vendor -}}
+      </div>
+    {% endif %}
+
+    <div class="product-price">
+
+      {% if product.price_varies %}
+        <span class="product-price__from">{{ 'products.product.from_text' | t }}</span>
+      {% endif %}
+
+      {% if product.compare_at_price > product.price %}
+        <span class="product-price__reduced theme-money">
+          {{ product.price | money }}
+        </span>
+      {% else %}
+        <span class="theme-money">{{ product.price | money }}</span>
+      {% endif %}
+
+      {% if product.compare_at_price > product.price %}
+        <span class="visually-hidden">{{ 'products.product.regular_price' | t }}</span>
+        <span class="product-price__compare theme-money">{{ product.compare_at_price | money }}</span>
+      {% endif %}
+
+      {%- assign variant = product.variants | sort: 'price' | first -%}
+      {% render 'unit-price', variant: variant %}
+
+      {% if product.available %}
+        {% if product.compare_at_price_max > product.price and settings.sale_label_enabled %}
+          <span class="product-label product-label--on-sale global-border-radius">{{ 'products.product.on_sale' | t }}</span>
+        {% endif %}
+      {% elsif settings.sold_label_enabled %}
+        <span class="product-label product-label--sold-out global-border-radius">{{ 'products.product.sold_out' | t }}</span>
       {% endif %}
 
     </div>
   </div>
-
-  <div class="product-block__title">
-    <a href="{{ product.url | within: collection }}" class="product-block__title-link">{{ product.title }}</a>
-  </div>
-{% comment %}Start automatically added Judge.me widget{% endcomment %}
-  {% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', concierge_install: true, product: product %}
-{% comment %}End automatically added Judge.me widget{% endcomment %}
-
-
-  {% if show_vendor %}
-    <div class="product-block__vendor">
-      {{- product.vendor -}}
-    </div>
-  {% endif %}
-
-  <div class="product-price">
-
-    {% if product.price_varies %}
-      <span class="product-price__from">{{ 'products.product.from_text' | t }}</span>
-    {% endif %}
-
-    {% if product.compare_at_price > product.price %}
-      <span class="product-price__reduced theme-money">
-        {{ product.price | money }}
-      </span>
-    {% else %}
-      <span class="theme-money">{{ product.price | money }}</span>
-    {% endif %}
-
-    {% if product.compare_at_price > product.price %}
-      <span class="visually-hidden">{{ 'products.product.regular_price' | t }}</span>
-      <span class="product-price__compare theme-money">{{ product.compare_at_price | money }}</span>
-    {% endif %}
-
-    {%- assign variant = product.variants | sort: 'price' | first -%}
-    {% render 'unit-price', variant: variant %}
-
-    {% if product.available %}
-      {% if product.compare_at_price_max > product.price and settings.sale_label_enabled %}
-        <span class="product-label product-label--on-sale global-border-radius">{{ 'products.product.on_sale' | t }}</span>
-      {% endif %}
-    {% elsif settings.sold_label_enabled %}
-      <span class="product-label product-label--sold-out global-border-radius">{{ 'products.product.sold_out' | t }}</span>
-    {% endif %}
-
-  </div>
-
+  <div class="swatch-container">
   {% if settings.swatch_enabled %}
     {%- for option in product.options -%}
     {% assign swatch_option_names = settings.swatch_option_name | split: "," %}
@@ -165,6 +167,7 @@
       {% endfor %}
     </select>
   {% endif %}
+  </div>
 {% comment %}
   <div class="theme-product-reviews-summary">
     <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
