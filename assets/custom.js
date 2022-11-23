@@ -4,6 +4,7 @@ var add_to_cart = '';
 var category = '';
 var board_category = '';
 var case_category = ''
+var items = [];
 
 // First Landing screen
 $(".bundle-start").click(function(){
@@ -51,12 +52,13 @@ $(".section-gallery.bundle-section .bundle-next").click(function(){
 
 // Product section
 $(".section-featured-collection.bundle-section .bundle-next").click(function(){
+  items = [];
   $(".active-section .product-block.active").each(function(){
-    add_to_cart += 'id=' + $(this).attr("variant-id") + '&quantity=1&';
-    addItemToCart( $(this).attr("variant-id"), 1);
+    console.log("adding products to cart...", $(this).attr("variant-id"))
+    items= [...items, {"id":$(this).attr("variant-id") , "quantity": 1}]
   });
-  console.log("query string: ", add_to_cart);
-  
+  addItemToCart(items);
+
   bundle_step += 1;
   current_fs = $(this).parents("section");
   next_fs = $(this).parents("section").next();
@@ -81,27 +83,32 @@ $(".section-featured-collection.bundle-section .bundle-next").click(function(){
 
 // Complete
 $(".bundle-complete").click(function(){
+  items = [];
   $(".active-section .product-block.active").each(function(){
-    add_to_cart += 'id='+$(this).attr("variant-id") + '&quantity=1';
-    addItemToCart( $(this).attr("variant-id"), 1);
+    console.log("adding products to cart...", $(this).attr("variant-id"))
+    items= [...items, {"id":$(this).attr("variant-id") , "quantity": 1}]
   });
-  console.log(add_to_cart);
-  window.location.href = "/cart";
+
+  addItemToCart(items);
+
+  setTimeout(() => {
+    window.location.href = "/cart";
+  }, 1000)
 });
 
-function addItemToCart(variant_id, qty) {
-  data = {
-    "id": variant_id,
-    "quantity": qty
-  }
+// Add products to cart
+function addItemToCart(items) {
+  data = {'items': items};
   
-  jQuery.ajax({
-    type: 'POST',
-    url: '/cart/add.js',
-    data: data,
-    dataType: 'json',
-  });
+   fetch('/cart/add.js', {
+     method: 'POST',
+     headers: {
+       'Content-Type': 'application/json'
+     },
+     body: JSON.stringify(data)
+   })
 }
+
 
 // Image item selection
 $(".bundle-section .gallery__item").click(function(){
@@ -162,6 +169,9 @@ $(".bundle-section .product-block .swatch-container .product-swatch-inline span"
     $(this).parents(".product-swatch-inline").find("span").removeClass("active")
     $(this).addClass("active");
     $(this).parents(".product-block").attr("variant-id", $(this).attr("variant-id"))
+  }
+  else{
+    $(this).parents(".product-block").find(".product-container").click();
   }
   
 
